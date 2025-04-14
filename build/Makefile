@@ -181,6 +181,19 @@ pkomunikator/fast:
 	$(MAKE) $(MAKESILENT) -f src/pkomunikator/CMakeFiles/pkomunikator.dir/build.make src/pkomunikator/CMakeFiles/pkomunikator.dir/build
 .PHONY : pkomunikator/fast
 
+#=============================================================================
+# Target rules for targets named plab2_1
+
+# Build rule for target.
+plab2_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab2_1
+.PHONY : plab2_1
+
+# fast build rule for target.
+plab2_1/fast:
+	$(MAKE) $(MAKESILENT) -f src/plab2_1/CMakeFiles/plab2_1.dir/build.make src/plab2_1/CMakeFiles/plab2_1.dir/build
+.PHONY : plab2_1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,6 +207,7 @@ help:
 	@echo "... pXRelayTest"
 	@echo "... pkomunikator"
 	@echo "... plab2"
+	@echo "... plab2_1"
 .PHONY : help
 
 

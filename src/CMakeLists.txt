@@ -20,6 +20,7 @@ ADD_SUBDIRECTORY(pExampleApp)
 ADD_SUBDIRECTORY(pXRelayTest)
 ADD_SUBDIRECTORY(plab2)
 ADD_SUBDIRECTORY(pkomunikator)
+ADD_SUBDIRECTORY(plab2_1)
 
 ##############################################################################
 #                           END of CMakeLists.txt
