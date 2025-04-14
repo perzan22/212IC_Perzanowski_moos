@@ -47,6 +47,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/lib_behaviors-test/cmake_install.cmake")
   include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/pExampleApp/cmake_install.cmake")
   include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/pXRelayTest/cmake_install.cmake")
+  include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab2/cmake_install.cmake")
+  include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/pkomunikator/cmake_install.cmake")
 
 endif()
 

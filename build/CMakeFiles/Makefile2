@@ -81,18 +81,24 @@ clean: src/clean
 src/all: src/lib_behaviors-test/all
 src/all: src/pExampleApp/all
 src/all: src/pXRelayTest/all
+src/all: src/plab2/all
+src/all: src/pkomunikator/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
 src/preinstall: src/lib_behaviors-test/preinstall
 src/preinstall: src/pExampleApp/preinstall
 src/preinstall: src/pXRelayTest/preinstall
+src/preinstall: src/plab2/preinstall
+src/preinstall: src/pkomunikator/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
 src/clean: src/lib_behaviors-test/clean
 src/clean: src/pExampleApp/clean
 src/clean: src/pXRelayTest/clean
+src/clean: src/plab2/clean
+src/clean: src/pkomunikator/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -139,6 +145,36 @@ src/pXRelayTest/preinstall:
 # Recursive "clean" directory target.
 src/pXRelayTest/clean: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/clean
 .PHONY : src/pXRelayTest/clean
+
+#=============================================================================
+# Directory level rules for directory src/pkomunikator
+
+# Recursive "all" directory target.
+src/pkomunikator/all: src/pkomunikator/CMakeFiles/pkomunikator.dir/all
+.PHONY : src/pkomunikator/all
+
+# Recursive "preinstall" directory target.
+src/pkomunikator/preinstall:
+.PHONY : src/pkomunikator/preinstall
+
+# Recursive "clean" directory target.
+src/pkomunikator/clean: src/pkomunikator/CMakeFiles/pkomunikator.dir/clean
+.PHONY : src/pkomunikator/clean
+
+#=============================================================================
+# Directory level rules for directory src/plab2
+
+# Recursive "all" directory target.
+src/plab2/all: src/plab2/CMakeFiles/plab2.dir/all
+.PHONY : src/plab2/all
+
+# Recursive "preinstall" directory target.
+src/plab2/preinstall:
+.PHONY : src/plab2/preinstall
+
+# Recursive "clean" directory target.
+src/plab2/clean: src/plab2/CMakeFiles/plab2.dir/clean
+.PHONY : src/plab2/clean
 
 #=============================================================================
 # Target rules for target src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir
@@ -217,6 +253,58 @@ pXRelayTest: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/rule
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/pXRelayTest/CMakeFiles/pXRelayTest.dir/build.make src/pXRelayTest/CMakeFiles/pXRelayTest.dir/clean
 .PHONY : src/pXRelayTest/CMakeFiles/pXRelayTest.dir/clean
+
+#=============================================================================
+# Target rules for target src/plab2/CMakeFiles/plab2.dir
+
+# All Build rule for target.
+src/plab2/CMakeFiles/plab2.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/plab2/CMakeFiles/plab2.dir/build.make src/plab2/CMakeFiles/plab2.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/plab2/CMakeFiles/plab2.dir/build.make src/plab2/CMakeFiles/plab2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=14,15,16,17 "Built target plab2"
+.PHONY : src/plab2/CMakeFiles/plab2.dir/all
+
+# Build rule for subdir invocation for target.
+src/plab2/CMakeFiles/plab2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/plab2/CMakeFiles/plab2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 0
+.PHONY : src/plab2/CMakeFiles/plab2.dir/rule
+
+# Convenience name for target.
+plab2: src/plab2/CMakeFiles/plab2.dir/rule
+.PHONY : plab2
+
+# clean rule for target.
+src/plab2/CMakeFiles/plab2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/plab2/CMakeFiles/plab2.dir/build.make src/plab2/CMakeFiles/plab2.dir/clean
+.PHONY : src/plab2/CMakeFiles/plab2.dir/clean
+
+#=============================================================================
+# Target rules for target src/pkomunikator/CMakeFiles/pkomunikator.dir
+
+# All Build rule for target.
+src/pkomunikator/CMakeFiles/pkomunikator.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/pkomunikator/CMakeFiles/pkomunikator.dir/build.make src/pkomunikator/CMakeFiles/pkomunikator.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/pkomunikator/CMakeFiles/pkomunikator.dir/build.make src/pkomunikator/CMakeFiles/pkomunikator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=10,11,12,13 "Built target pkomunikator"
+.PHONY : src/pkomunikator/CMakeFiles/pkomunikator.dir/all
+
+# Build rule for subdir invocation for target.
+src/pkomunikator/CMakeFiles/pkomunikator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/pkomunikator/CMakeFiles/pkomunikator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 0
+.PHONY : src/pkomunikator/CMakeFiles/pkomunikator.dir/rule
+
+# Convenience name for target.
+pkomunikator: src/pkomunikator/CMakeFiles/pkomunikator.dir/rule
+.PHONY : pkomunikator
+
+# clean rule for target.
+src/pkomunikator/CMakeFiles/pkomunikator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/pkomunikator/CMakeFiles/pkomunikator.dir/build.make src/pkomunikator/CMakeFiles/pkomunikator.dir/clean
+.PHONY : src/pkomunikator/CMakeFiles/pkomunikator.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

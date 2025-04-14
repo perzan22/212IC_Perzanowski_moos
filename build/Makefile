@@ -155,6 +155,32 @@ pXRelayTest/fast:
 	$(MAKE) $(MAKESILENT) -f src/pXRelayTest/CMakeFiles/pXRelayTest.dir/build.make src/pXRelayTest/CMakeFiles/pXRelayTest.dir/build
 .PHONY : pXRelayTest/fast
 
+#=============================================================================
+# Target rules for targets named plab2
+
+# Build rule for target.
+plab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab2
+.PHONY : plab2
+
+# fast build rule for target.
+plab2/fast:
+	$(MAKE) $(MAKESILENT) -f src/plab2/CMakeFiles/plab2.dir/build.make src/plab2/CMakeFiles/plab2.dir/build
+.PHONY : plab2/fast
+
+#=============================================================================
+# Target rules for targets named pkomunikator
+
+# Build rule for target.
+pkomunikator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pkomunikator
+.PHONY : pkomunikator
+
+# fast build rule for target.
+pkomunikator/fast:
+	$(MAKE) $(MAKESILENT) -f src/pkomunikator/CMakeFiles/pkomunikator.dir/build.make src/pkomunikator/CMakeFiles/pkomunikator.dir/build
+.PHONY : pkomunikator/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +192,8 @@ help:
 	@echo "... BHV_SimpleWaypoint"
 	@echo "... pExampleApp"
 	@echo "... pXRelayTest"
+	@echo "... pkomunikator"
+	@echo "... plab2"
 .PHONY : help
 
 

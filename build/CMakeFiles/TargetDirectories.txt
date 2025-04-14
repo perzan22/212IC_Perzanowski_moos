@@ -11,3 +11,9 @@
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/pXRelayTest/CMakeFiles/pXRelayTest.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/pXRelayTest/CMakeFiles/edit_cache.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/pXRelayTest/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab2/CMakeFiles/plab2.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab2/CMakeFiles/edit_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab2/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/pkomunikator/CMakeFiles/pkomunikator.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/pkomunikator/CMakeFiles/edit_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/pkomunikator/CMakeFiles/rebuild_cache.dir
