@@ -20,3 +20,9 @@
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/plab2_1/CMakeFiles/plab2_1.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/plab2_1/CMakeFiles/edit_cache.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/plab2_1/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/pkomunikatorSNR/CMakeFiles/edit_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/pkomunikatorSNR/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab3/CMakeFiles/plab3.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab3/CMakeFiles/edit_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab3/CMakeFiles/rebuild_cache.dir

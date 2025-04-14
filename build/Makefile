@@ -194,6 +194,32 @@ plab2_1/fast:
 	$(MAKE) $(MAKESILENT) -f src/plab2_1/CMakeFiles/plab2_1.dir/build.make src/plab2_1/CMakeFiles/plab2_1.dir/build
 .PHONY : plab2_1/fast
 
+#=============================================================================
+# Target rules for targets named pkomunikatorSNR
+
+# Build rule for target.
+pkomunikatorSNR: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pkomunikatorSNR
+.PHONY : pkomunikatorSNR
+
+# fast build rule for target.
+pkomunikatorSNR/fast:
+	$(MAKE) $(MAKESILENT) -f src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/build.make src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/build
+.PHONY : pkomunikatorSNR/fast
+
+#=============================================================================
+# Target rules for targets named plab3
+
+# Build rule for target.
+plab3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab3
+.PHONY : plab3
+
+# fast build rule for target.
+plab3/fast:
+	$(MAKE) $(MAKESILENT) -f src/plab3/CMakeFiles/plab3.dir/build.make src/plab3/CMakeFiles/plab3.dir/build
+.PHONY : plab3/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,8 +232,10 @@ help:
 	@echo "... pExampleApp"
 	@echo "... pXRelayTest"
 	@echo "... pkomunikator"
+	@echo "... pkomunikatorSNR"
 	@echo "... plab2"
 	@echo "... plab2_1"
+	@echo "... plab3"
 .PHONY : help
 
 
