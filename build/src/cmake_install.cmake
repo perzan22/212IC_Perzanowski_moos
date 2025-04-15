@@ -52,6 +52,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab2_1/cmake_install.cmake")
   include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/pkomunikatorSNR/cmake_install.cmake")
   include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab3/cmake_install.cmake")
+  include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/plab4/cmake_install.cmake")
+  include("/home/vboxuser/Desktop/moos-ivp-extend/build/src/pkomunikatorTIME/cmake_install.cmake")
 
 endif()
 

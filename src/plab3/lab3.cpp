@@ -53,10 +53,12 @@ bool lab3::OnNewMail(MOOSMSG_LIST &NewMail)
 
       if(key == "FOO") 
         cout << "great!";
+        // get sonar info
         else if(key == "DEF_SNR"){
           range = stod(tokStringParse(msg.GetString(),"range",',','='));
           angle = stod(tokStringParse(msg.GetString(),"angle",',','='));
         }
+        // get actual kayak position and heading info
         else if(key == "NAV_X"){
           nav_x = msg.GetDouble();
         }
@@ -91,18 +93,20 @@ bool lab3::Iterate()
 {
   AppCastingMOOSApp::Iterate();
 
+  // Initiate points of sonar edge end
+
   double left_x, left_y, right_x, right_y;
 
-  // calculate left and right edge by extending points from heading to left and right
+  // calculate left and right edge direction by extending points from heading to left and right
   // by half of an angle each direction
   // angle360 function normalize angle to a number from 0-360 deg
 
   double left_rad = angle360(nav_heading - (angle / 2.0));
   double right_rad = angle360(nav_heading + (angle / 2.0));
 
-  // calculate left and right point by function projectPoint
+  // calculate left and right point of sonar by function projectPoint
   // which calculate left and right point by taking base ship position
-  // left and right edge and range of sonar
+  // left and right edge direction and range of sonar
 
   projectPoint(left_rad, range, nav_x, nav_y, left_x, left_y);
   projectPoint(right_rad, range, nav_x, nav_y, right_x, right_y);

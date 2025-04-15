@@ -88,6 +88,7 @@ bool lab2::Iterate()
 {
   AppCastingMOOSApp::Iterate();
   
+  // set x and y of each polygon point depending on center and width of the poly
   XYPoint pkt1,pkt2,pkt3,pkt4;
   pkt1.set_vx(rect_x - width/2);
   pkt1.set_vy(rect_y + height/2);
@@ -101,6 +102,7 @@ bool lab2::Iterate()
   pkt4.set_vx(rect_x - width/2);
   pkt4.set_vy(rect_y - height/2);
   
+  // add points to polygon
   XYPolygon pol;
   
   pol.add_vertex(pkt1.get_vx(), pkt1.get_vy());
@@ -108,6 +110,7 @@ bool lab2::Iterate()
   pol.add_vertex(pkt3.get_vx(), pkt3.get_vy());
   pol.add_vertex(pkt4.get_vx(), pkt4.get_vy());
   
+  // draw polygon
   Notify("VIEW_POLYGON",pol.get_spec());
   
   AppCastingMOOSApp::PostReport();

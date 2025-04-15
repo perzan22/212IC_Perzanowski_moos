@@ -88,6 +88,7 @@ bool lab2_1::Iterate()
 {
   AppCastingMOOSApp::Iterate();
   
+  // set points of octagon
   XYPolygon pol;
   
   for (int i = 0; i < 8; i++) {
@@ -102,6 +103,7 @@ bool lab2_1::Iterate()
     // add point to polygon
     pol.add_vertex(x, y);
   }
+  // draw polygon
   
   Notify("VIEW_POLYGON",pol.get_spec());
   

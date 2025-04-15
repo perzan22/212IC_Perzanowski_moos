@@ -23,6 +23,10 @@ ADD_SUBDIRECTORY(pkomunikator)
 ADD_SUBDIRECTORY(plab2_1)
 ADD_SUBDIRECTORY(pkomunikatorSNR)
 ADD_SUBDIRECTORY(plab3)
+ADD_SUBDIRECTORY(plab4)
+ADD_SUBDIRECTORY(pkomunikatorTIME)
+
+
 
 ##############################################################################
 #                           END of CMakeLists.txt

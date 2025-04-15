@@ -35,6 +35,8 @@ class lab3 : public AppCastingMOOSApp
  private: // Configuration variables
   double range;
   double angle;
+
+  // actual kayak positions variables
   double nav_x;
   double nav_y;
   double nav_heading;

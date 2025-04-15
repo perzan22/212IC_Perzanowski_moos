@@ -220,6 +220,32 @@ plab3/fast:
 	$(MAKE) $(MAKESILENT) -f src/plab3/CMakeFiles/plab3.dir/build.make src/plab3/CMakeFiles/plab3.dir/build
 .PHONY : plab3/fast
 
+#=============================================================================
+# Target rules for targets named plab4
+
+# Build rule for target.
+plab4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab4
+.PHONY : plab4
+
+# fast build rule for target.
+plab4/fast:
+	$(MAKE) $(MAKESILENT) -f src/plab4/CMakeFiles/plab4.dir/build.make src/plab4/CMakeFiles/plab4.dir/build
+.PHONY : plab4/fast
+
+#=============================================================================
+# Target rules for targets named pkomunikatorTIME
+
+# Build rule for target.
+pkomunikatorTIME: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pkomunikatorTIME
+.PHONY : pkomunikatorTIME
+
+# fast build rule for target.
+pkomunikatorTIME/fast:
+	$(MAKE) $(MAKESILENT) -f src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/build.make src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/build
+.PHONY : pkomunikatorTIME/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -233,9 +259,11 @@ help:
 	@echo "... pXRelayTest"
 	@echo "... pkomunikator"
 	@echo "... pkomunikatorSNR"
+	@echo "... pkomunikatorTIME"
 	@echo "... plab2"
 	@echo "... plab2_1"
 	@echo "... plab3"
+	@echo "... plab4"
 .PHONY : help
 
 
