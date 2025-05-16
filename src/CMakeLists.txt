@@ -18,17 +18,15 @@ INCLUDE_DIRECTORIES(${LOCAL_LIBRARY_DIRS})
 ADD_SUBDIRECTORY(lib_behaviors-test)
 ADD_SUBDIRECTORY(pExampleApp)
 ADD_SUBDIRECTORY(pXRelayTest)
-ADD_SUBDIRECTORY(plab2)
 ADD_SUBDIRECTORY(pkomunikator)
-ADD_SUBDIRECTORY(plab2_1)
 ADD_SUBDIRECTORY(pkomunikatorSNR)
+ADD_SUBDIRECTORY(pkomunikatorTIME)
+ADD_SUBDIRECTORY(plab2)
+ADD_SUBDIRECTORY(plab2_1)
 ADD_SUBDIRECTORY(plab3)
 ADD_SUBDIRECTORY(plab4)
-ADD_SUBDIRECTORY(pkomunikatorTIME)
-
-
+ADD_SUBDIRECTORY(plab5)
 
 ##############################################################################
 #                           END of CMakeLists.txt
 ##############################################################################
-

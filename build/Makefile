@@ -156,19 +156,6 @@ pXRelayTest/fast:
 .PHONY : pXRelayTest/fast
 
 #=============================================================================
-# Target rules for targets named plab2
-
-# Build rule for target.
-plab2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab2
-.PHONY : plab2
-
-# fast build rule for target.
-plab2/fast:
-	$(MAKE) $(MAKESILENT) -f src/plab2/CMakeFiles/plab2.dir/build.make src/plab2/CMakeFiles/plab2.dir/build
-.PHONY : plab2/fast
-
-#=============================================================================
 # Target rules for targets named pkomunikator
 
 # Build rule for target.
@@ -182,19 +169,6 @@ pkomunikator/fast:
 .PHONY : pkomunikator/fast
 
 #=============================================================================
-# Target rules for targets named plab2_1
-
-# Build rule for target.
-plab2_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab2_1
-.PHONY : plab2_1
-
-# fast build rule for target.
-plab2_1/fast:
-	$(MAKE) $(MAKESILENT) -f src/plab2_1/CMakeFiles/plab2_1.dir/build.make src/plab2_1/CMakeFiles/plab2_1.dir/build
-.PHONY : plab2_1/fast
-
-#=============================================================================
 # Target rules for targets named pkomunikatorSNR
 
 # Build rule for target.
@@ -206,6 +180,45 @@ pkomunikatorSNR: cmake_check_build_system
 pkomunikatorSNR/fast:
 	$(MAKE) $(MAKESILENT) -f src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/build.make src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/build
 .PHONY : pkomunikatorSNR/fast
+
+#=============================================================================
+# Target rules for targets named pkomunikatorTIME
+
+# Build rule for target.
+pkomunikatorTIME: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pkomunikatorTIME
+.PHONY : pkomunikatorTIME
+
+# fast build rule for target.
+pkomunikatorTIME/fast:
+	$(MAKE) $(MAKESILENT) -f src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/build.make src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/build
+.PHONY : pkomunikatorTIME/fast
+
+#=============================================================================
+# Target rules for targets named plab2
+
+# Build rule for target.
+plab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab2
+.PHONY : plab2
+
+# fast build rule for target.
+plab2/fast:
+	$(MAKE) $(MAKESILENT) -f src/plab2/CMakeFiles/plab2.dir/build.make src/plab2/CMakeFiles/plab2.dir/build
+.PHONY : plab2/fast
+
+#=============================================================================
+# Target rules for targets named plab2_1
+
+# Build rule for target.
+plab2_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab2_1
+.PHONY : plab2_1
+
+# fast build rule for target.
+plab2_1/fast:
+	$(MAKE) $(MAKESILENT) -f src/plab2_1/CMakeFiles/plab2_1.dir/build.make src/plab2_1/CMakeFiles/plab2_1.dir/build
+.PHONY : plab2_1/fast
 
 #=============================================================================
 # Target rules for targets named plab3
@@ -234,17 +247,17 @@ plab4/fast:
 .PHONY : plab4/fast
 
 #=============================================================================
-# Target rules for targets named pkomunikatorTIME
+# Target rules for targets named plab5
 
 # Build rule for target.
-pkomunikatorTIME: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pkomunikatorTIME
-.PHONY : pkomunikatorTIME
+plab5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab5
+.PHONY : plab5
 
 # fast build rule for target.
-pkomunikatorTIME/fast:
-	$(MAKE) $(MAKESILENT) -f src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/build.make src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/build
-.PHONY : pkomunikatorTIME/fast
+plab5/fast:
+	$(MAKE) $(MAKESILENT) -f src/plab5/CMakeFiles/plab5.dir/build.make src/plab5/CMakeFiles/plab5.dir/build
+.PHONY : plab5/fast
 
 # Help Target
 help:
@@ -264,6 +277,7 @@ help:
 	@echo "... plab2_1"
 	@echo "... plab3"
 	@echo "... plab4"
+	@echo "... plab5"
 .PHONY : help
 
 

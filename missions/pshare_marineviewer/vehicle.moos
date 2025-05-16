@@ -234,7 +234,6 @@ ProcessConfig = plab2
 {
   AppTick    = 2
   CommsTick	 = 2
-
  
 }
 
