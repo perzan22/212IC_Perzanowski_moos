@@ -259,6 +259,19 @@ plab5/fast:
 	$(MAKE) $(MAKESILENT) -f src/plab5/CMakeFiles/plab5.dir/build.make src/plab5/CMakeFiles/plab5.dir/build
 .PHONY : plab5/fast
 
+#=============================================================================
+# Target rules for targets named plab6
+
+# Build rule for target.
+plab6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plab6
+.PHONY : plab6
+
+# fast build rule for target.
+plab6/fast:
+	$(MAKE) $(MAKESILENT) -f src/plab6/CMakeFiles/plab6.dir/build.make src/plab6/CMakeFiles/plab6.dir/build
+.PHONY : plab6/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -278,6 +291,7 @@ help:
 	@echo "... plab3"
 	@echo "... plab4"
 	@echo "... plab5"
+	@echo "... plab6"
 .PHONY : help
 
 

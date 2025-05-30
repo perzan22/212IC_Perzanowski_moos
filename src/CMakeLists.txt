@@ -26,6 +26,7 @@ ADD_SUBDIRECTORY(plab2_1)
 ADD_SUBDIRECTORY(plab3)
 ADD_SUBDIRECTORY(plab4)
 ADD_SUBDIRECTORY(plab5)
+ADD_SUBDIRECTORY(plab6)
 
 ##############################################################################
 #                           END of CMakeLists.txt

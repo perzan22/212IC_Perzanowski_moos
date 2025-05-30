@@ -89,6 +89,7 @@ src/all: src/plab2_1/all
 src/all: src/plab3/all
 src/all: src/plab4/all
 src/all: src/plab5/all
+src/all: src/plab6/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -103,6 +104,7 @@ src/preinstall: src/plab2_1/preinstall
 src/preinstall: src/plab3/preinstall
 src/preinstall: src/plab4/preinstall
 src/preinstall: src/plab5/preinstall
+src/preinstall: src/plab6/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
@@ -117,6 +119,7 @@ src/clean: src/plab2_1/clean
 src/clean: src/plab3/clean
 src/clean: src/plab4/clean
 src/clean: src/plab5/clean
+src/clean: src/plab6/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -283,6 +286,21 @@ src/plab5/preinstall:
 # Recursive "clean" directory target.
 src/plab5/clean: src/plab5/CMakeFiles/plab5.dir/clean
 .PHONY : src/plab5/clean
+
+#=============================================================================
+# Directory level rules for directory src/plab6
+
+# Recursive "all" directory target.
+src/plab6/all: src/plab6/CMakeFiles/plab6.dir/all
+.PHONY : src/plab6/all
+
+# Recursive "preinstall" directory target.
+src/plab6/preinstall:
+.PHONY : src/plab6/preinstall
+
+# Recursive "clean" directory target.
+src/plab6/clean: src/plab6/CMakeFiles/plab6.dir/clean
+.PHONY : src/plab6/clean
 
 #=============================================================================
 # Target rules for target src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir
@@ -569,6 +587,32 @@ plab5: src/plab5/CMakeFiles/plab5.dir/rule
 src/plab5/CMakeFiles/plab5.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/plab5/CMakeFiles/plab5.dir/build.make src/plab5/CMakeFiles/plab5.dir/clean
 .PHONY : src/plab5/CMakeFiles/plab5.dir/clean
+
+#=============================================================================
+# Target rules for target src/plab6/CMakeFiles/plab6.dir
+
+# All Build rule for target.
+src/plab6/CMakeFiles/plab6.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/plab6/CMakeFiles/plab6.dir/build.make src/plab6/CMakeFiles/plab6.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/plab6/CMakeFiles/plab6.dir/build.make src/plab6/CMakeFiles/plab6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=42,43,44,45 "Built target plab6"
+.PHONY : src/plab6/CMakeFiles/plab6.dir/all
+
+# Build rule for subdir invocation for target.
+src/plab6/CMakeFiles/plab6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/plab6/CMakeFiles/plab6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 0
+.PHONY : src/plab6/CMakeFiles/plab6.dir/rule
+
+# Convenience name for target.
+plab6: src/plab6/CMakeFiles/plab6.dir/rule
+.PHONY : plab6
+
+# clean rule for target.
+src/plab6/CMakeFiles/plab6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/plab6/CMakeFiles/plab6.dir/build.make src/plab6/CMakeFiles/plab6.dir/clean
+.PHONY : src/plab6/CMakeFiles/plab6.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

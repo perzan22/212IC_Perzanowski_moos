@@ -93,15 +93,17 @@ bool lab5::Iterate()
   AppCastingMOOSApp::Iterate();
   
   // Initiate points of sonar edge end
-
-  double left_x, left_y, right_x, right_y;
-
+  double left_x, left_y, right_x, right_y, head_x, head_y, left_middle_x, left_middle_y, right_middle_x, right_middle_y;
+  
   // calculate left and right edge direction by extending points from heading to left and right
   // by half of an angle each direction
   // angle360 function normalize angle to a number from 0-360 deg
 
   double left_rad = angle360(nav_heading - (angle / 2.0));
   double right_rad = angle360(nav_heading + (angle / 2.0));
+  double left_middle_rad = angle360(nav_heading - (angle / 4.0));
+  double right_middle_rad = angle360(nav_heading + (angle / 4.0));
+  double head_rad = angle360(nav_heading);
 
   // calculate left and right point of sonar by function projectPoint
   // which calculate left and right point by taking base ship position
@@ -109,6 +111,9 @@ bool lab5::Iterate()
 
   projectPoint(left_rad, range, nav_x, nav_y, left_x, left_y);
   projectPoint(right_rad, range, nav_x, nav_y, right_x, right_y);
+  projectPoint(head_rad, range, nav_x, nav_y, head_x, head_y);
+  projectPoint(left_middle_rad, range, nav_x, nav_y, left_middle_x, left_middle_y);
+  projectPoint(right_middle_rad, range, nav_x, nav_y, right_middle_x, right_middle_y);
 
   // add points to polygon
   
@@ -116,6 +121,9 @@ bool lab5::Iterate()
   
   pol.add_vertex(nav_x, nav_y);
   pol.add_vertex(left_x, left_y);
+  pol.add_vertex(left_middle_x, left_middle_y);
+  pol.add_vertex(head_x, head_y);
+  pol.add_vertex(right_middle_x, right_middle_y);
   pol.add_vertex(right_x, right_y);
 
   pol.set_label("SONAR");
