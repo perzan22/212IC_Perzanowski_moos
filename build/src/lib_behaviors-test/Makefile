@@ -130,6 +130,20 @@ BHV_SimpleWaypoint/fast:
 	cd /home/vboxuser/Desktop/moos-ivp-extend/build && $(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build
 .PHONY : BHV_SimpleWaypoint/fast
 
+# Convenience name for target.
+src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/rule:
+	cd /home/vboxuser/Desktop/moos-ivp-extend/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/rule
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/rule
+
+# Convenience name for target.
+BHV_Depth: src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/rule
+.PHONY : BHV_Depth
+
+# fast build rule for target.
+BHV_Depth/fast:
+	cd /home/vboxuser/Desktop/moos-ivp-extend/build && $(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build
+.PHONY : BHV_Depth/fast
+
 AOF_SimpleWaypoint.o: AOF_SimpleWaypoint.cpp.o
 .PHONY : AOF_SimpleWaypoint.o
 
@@ -153,6 +167,30 @@ AOF_SimpleWaypoint.s: AOF_SimpleWaypoint.cpp.s
 AOF_SimpleWaypoint.cpp.s:
 	cd /home/vboxuser/Desktop/moos-ivp-extend/build && $(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.s
 .PHONY : AOF_SimpleWaypoint.cpp.s
+
+BHV_Depth.o: BHV_Depth.cpp.o
+.PHONY : BHV_Depth.o
+
+# target to build an object file
+BHV_Depth.cpp.o:
+	cd /home/vboxuser/Desktop/moos-ivp-extend/build && $(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/BHV_Depth.cpp.o
+.PHONY : BHV_Depth.cpp.o
+
+BHV_Depth.i: BHV_Depth.cpp.i
+.PHONY : BHV_Depth.i
+
+# target to preprocess a source file
+BHV_Depth.cpp.i:
+	cd /home/vboxuser/Desktop/moos-ivp-extend/build && $(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/BHV_Depth.cpp.i
+.PHONY : BHV_Depth.cpp.i
+
+BHV_Depth.s: BHV_Depth.cpp.s
+.PHONY : BHV_Depth.s
+
+# target to generate assembly for a file
+BHV_Depth.cpp.s:
+	cd /home/vboxuser/Desktop/moos-ivp-extend/build && $(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/BHV_Depth.cpp.s
+.PHONY : BHV_Depth.cpp.s
 
 BHV_SimpleWaypoint.o: BHV_SimpleWaypoint.cpp.o
 .PHONY : BHV_SimpleWaypoint.o
@@ -186,10 +224,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... BHV_Depth"
 	@echo "... BHV_SimpleWaypoint"
 	@echo "... AOF_SimpleWaypoint.o"
 	@echo "... AOF_SimpleWaypoint.i"
 	@echo "... AOF_SimpleWaypoint.s"
+	@echo "... BHV_Depth.o"
+	@echo "... BHV_Depth.i"
+	@echo "... BHV_Depth.s"
 	@echo "... BHV_SimpleWaypoint.o"
 	@echo "... BHV_SimpleWaypoint.i"
 	@echo "... BHV_SimpleWaypoint.s"

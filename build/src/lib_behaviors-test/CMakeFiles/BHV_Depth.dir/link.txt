@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fPIC -g -Wdeprecated-declarations -shared -Wl,-soname,libBHV_Depth.so -o /home/vboxuser/Desktop/moos-ivp-extend/lib/libBHV_Depth.so CMakeFiles/BHV_Depth.dir/BHV_Depth.cpp.o   -L/home/vboxuser/Desktop/moos-ivp/lib  -Wl,-rpath,/home/vboxuser/Desktop/moos-ivp/lib -lhelmivp -lbehaviors -livpbuild -llogic -livpcore -lbhvutil -lmbutil -lgeometry -lm 

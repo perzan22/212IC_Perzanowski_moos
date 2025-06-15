@@ -3,6 +3,7 @@
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/CMakeFiles/edit_cache.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/CMakeFiles/rebuild_cache.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/lib_behaviors-test/CMakeFiles/edit_cache.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/lib_behaviors-test/CMakeFiles/rebuild_cache.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/pExampleApp/CMakeFiles/pExampleApp.dir

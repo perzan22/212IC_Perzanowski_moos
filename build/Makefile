@@ -130,6 +130,19 @@ BHV_SimpleWaypoint/fast:
 .PHONY : BHV_SimpleWaypoint/fast
 
 #=============================================================================
+# Target rules for targets named BHV_Depth
+
+# Build rule for target.
+BHV_Depth: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BHV_Depth
+.PHONY : BHV_Depth
+
+# fast build rule for target.
+BHV_Depth/fast:
+	$(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build
+.PHONY : BHV_Depth/fast
+
+#=============================================================================
 # Target rules for targets named pExampleApp
 
 # Build rule for target.
@@ -280,6 +293,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... BHV_Depth"
 	@echo "... BHV_SimpleWaypoint"
 	@echo "... pExampleApp"
 	@echo "... pXRelayTest"

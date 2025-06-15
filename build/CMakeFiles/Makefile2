@@ -127,6 +127,7 @@ src/clean: src/plab6/clean
 
 # Recursive "all" directory target.
 src/lib_behaviors-test/all: src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/all
+src/lib_behaviors-test/all: src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/all
 .PHONY : src/lib_behaviors-test/all
 
 # Recursive "preinstall" directory target.
@@ -135,6 +136,7 @@ src/lib_behaviors-test/preinstall:
 
 # Recursive "clean" directory target.
 src/lib_behaviors-test/clean: src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/clean
+src/lib_behaviors-test/clean: src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/clean
 .PHONY : src/lib_behaviors-test/clean
 
 #=============================================================================
@@ -309,7 +311,7 @@ src/plab6/clean: src/plab6/CMakeFiles/plab6.dir/clean
 src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=1,2,3 "Built target BHV_SimpleWaypoint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=3,4,5 "Built target BHV_SimpleWaypoint"
 .PHONY : src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/all
 
 # Build rule for subdir invocation for target.
@@ -329,13 +331,39 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/clean:
 .PHONY : src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/clean
 
 #=============================================================================
+# Target rules for target src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir
+
+# All Build rule for target.
+src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=1,2 "Built target BHV_Depth"
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/all
+
+# Build rule for subdir invocation for target.
+src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 0
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/rule
+
+# Convenience name for target.
+BHV_Depth: src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/rule
+.PHONY : BHV_Depth
+
+# clean rule for target.
+src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/clean
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_Depth.dir/clean
+
+#=============================================================================
 # Target rules for target src/pExampleApp/CMakeFiles/pExampleApp.dir
 
 # All Build rule for target.
 src/pExampleApp/CMakeFiles/pExampleApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/pExampleApp/CMakeFiles/pExampleApp.dir/build.make src/pExampleApp/CMakeFiles/pExampleApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/pExampleApp/CMakeFiles/pExampleApp.dir/build.make src/pExampleApp/CMakeFiles/pExampleApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=4,5 "Built target pExampleApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=6,7 "Built target pExampleApp"
 .PHONY : src/pExampleApp/CMakeFiles/pExampleApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,7 +389,7 @@ src/pExampleApp/CMakeFiles/pExampleApp.dir/clean:
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/pXRelayTest/CMakeFiles/pXRelayTest.dir/build.make src/pXRelayTest/CMakeFiles/pXRelayTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/pXRelayTest/CMakeFiles/pXRelayTest.dir/build.make src/pXRelayTest/CMakeFiles/pXRelayTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=6,7,8,9 "Built target pXRelayTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=8,9,10,11 "Built target pXRelayTest"
 .PHONY : src/pXRelayTest/CMakeFiles/pXRelayTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -387,7 +415,7 @@ src/pXRelayTest/CMakeFiles/pXRelayTest.dir/clean:
 src/pkomunikator/CMakeFiles/pkomunikator.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/pkomunikator/CMakeFiles/pkomunikator.dir/build.make src/pkomunikator/CMakeFiles/pkomunikator.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/pkomunikator/CMakeFiles/pkomunikator.dir/build.make src/pkomunikator/CMakeFiles/pkomunikator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=10,11,12,13 "Built target pkomunikator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=12,13,14,15 "Built target pkomunikator"
 .PHONY : src/pkomunikator/CMakeFiles/pkomunikator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -413,7 +441,7 @@ src/pkomunikator/CMakeFiles/pkomunikator.dir/clean:
 src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/build.make src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/build.make src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=14,15,16,17 "Built target pkomunikatorSNR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=16,17,18,19 "Built target pkomunikatorSNR"
 .PHONY : src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/all
 
 # Build rule for subdir invocation for target.
@@ -439,7 +467,7 @@ src/pkomunikatorSNR/CMakeFiles/pkomunikatorSNR.dir/clean:
 src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/build.make src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/build.make src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=18,19,20,21 "Built target pkomunikatorTIME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=20,21,22,23 "Built target pkomunikatorTIME"
 .PHONY : src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/all
 
 # Build rule for subdir invocation for target.
@@ -465,7 +493,7 @@ src/pkomunikatorTIME/CMakeFiles/pkomunikatorTIME.dir/clean:
 src/plab2/CMakeFiles/plab2.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/plab2/CMakeFiles/plab2.dir/build.make src/plab2/CMakeFiles/plab2.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/plab2/CMakeFiles/plab2.dir/build.make src/plab2/CMakeFiles/plab2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=22,23,24,25 "Built target plab2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=24,25,26,27 "Built target plab2"
 .PHONY : src/plab2/CMakeFiles/plab2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -491,7 +519,7 @@ src/plab2/CMakeFiles/plab2.dir/clean:
 src/plab2_1/CMakeFiles/plab2_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/plab2_1/CMakeFiles/plab2_1.dir/build.make src/plab2_1/CMakeFiles/plab2_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/plab2_1/CMakeFiles/plab2_1.dir/build.make src/plab2_1/CMakeFiles/plab2_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=26,27,28,29 "Built target plab2_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=28,29,30,31 "Built target plab2_1"
 .PHONY : src/plab2_1/CMakeFiles/plab2_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -517,7 +545,7 @@ src/plab2_1/CMakeFiles/plab2_1.dir/clean:
 src/plab3/CMakeFiles/plab3.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/plab3/CMakeFiles/plab3.dir/build.make src/plab3/CMakeFiles/plab3.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/plab3/CMakeFiles/plab3.dir/build.make src/plab3/CMakeFiles/plab3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=30,31,32,33 "Built target plab3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=32,33,34,35 "Built target plab3"
 .PHONY : src/plab3/CMakeFiles/plab3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -543,7 +571,7 @@ src/plab3/CMakeFiles/plab3.dir/clean:
 src/plab4/CMakeFiles/plab4.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/plab4/CMakeFiles/plab4.dir/build.make src/plab4/CMakeFiles/plab4.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/plab4/CMakeFiles/plab4.dir/build.make src/plab4/CMakeFiles/plab4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=34,35,36,37 "Built target plab4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=36,37,38,39 "Built target plab4"
 .PHONY : src/plab4/CMakeFiles/plab4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -569,7 +597,7 @@ src/plab4/CMakeFiles/plab4.dir/clean:
 src/plab5/CMakeFiles/plab5.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/plab5/CMakeFiles/plab5.dir/build.make src/plab5/CMakeFiles/plab5.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/plab5/CMakeFiles/plab5.dir/build.make src/plab5/CMakeFiles/plab5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=38,39,40,41 "Built target plab5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=40,41,42,43 "Built target plab5"
 .PHONY : src/plab5/CMakeFiles/plab5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -595,7 +623,7 @@ src/plab5/CMakeFiles/plab5.dir/clean:
 src/plab6/CMakeFiles/plab6.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/plab6/CMakeFiles/plab6.dir/build.make src/plab6/CMakeFiles/plab6.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/plab6/CMakeFiles/plab6.dir/build.make src/plab6/CMakeFiles/plab6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=42,43,44,45 "Built target plab6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=44,45,46,47 "Built target plab6"
 .PHONY : src/plab6/CMakeFiles/plab6.dir/all
 
 # Build rule for subdir invocation for target.
