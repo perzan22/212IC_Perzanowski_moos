@@ -1,0 +1,817 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_16_6_2025_____07_35_50/MOOSLog_16_6_2025_____07_35_50.alog
+%% FILE OPENED ON  Thu Jan  1 00:00:00 1970
+%% LOGSTART           1750059350.285581
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.60433         LOGGER_DIRECTORY     pLogger         ./MOOSLog_16_6_2025_____07_35_50 
+0.70520         DB_EVENT             MOOSDB_alpha    connected=pHelmIvP 
+0.70527         IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+0.78659         UXMS_854_ITER_GAP    uXMS_854        1.00398      
+0.78683         UXMS_854_ITER_LEN    uXMS_854        0.00121      
+0.90090         DB_EVENT             MOOSDB_alpha    connected=uMAC_2909 
+0.98758         UXMS_854_ITER_GAP    uXMS_854        1.00491      
+0.98782         UXMS_854_ITER_LEN    uXMS_854        0.00123      
+1.06140         USM_DRIFT_SUMMARY    uSimMarineV22   ang=0, mag=0, xmag=0, ymag=0 
+1.06140         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00012      
+1.11640         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.11640         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.11641         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00022      
+1.12312         DB_EVENT             MOOSDB_alpha    connected=uProcessWatch 
+1.17074         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.08652      
+1.17086         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00260      
+1.18895         UXMS_854_ITER_GAP    uXMS_854        1.00685      
+1.18902         UXMS_854_ITER_LEN    uXMS_854        0.00038      
+1.20958         PHELMIVP_PID         pHelmIvP        21856.00000  
+1.21077         DEPLOY               pHelmIvP:HELM_VAR_INIT false 
+1.21077         RETURN               pHelmIvP:HELM_VAR_INIT false 
+1.21077         IVPHELM_REGISTER     pHelmIvP        IVPHELM_STATE 
+1.21078         IVPHELM_REGISTER     pHelmIvP        DB_CLIENTS 
+1.21078         IVPHELM_REGISTER     pHelmIvP        MOOS_MANUAL_OVERIDE 
+1.21078         IVPHELM_REGISTER     pHelmIvP        MOOS_MANUAL_OVERRIDE 
+1.21078         IVPHELM_REGISTER     pHelmIvP        RESTART_HELM 
+1.21078         IVPHELM_REGISTER     pHelmIvP        IVPHELM_REJOURNAL 
+1.21078         IVPHELM_REGISTER     pHelmIvP        NAV_SPEED 
+1.21078         IVPHELM_REGISTER     pHelmIvP        NAV_HEADING 
+1.21078         IVPHELM_REGISTER     pHelmIvP        NAV_DEPTH 
+1.21078         IVPHELM_REGISTER     pHelmIvP        HELM_MAP_CLEAR 
+1.21078         IVPHELM_REGISTER     pHelmIvP        AIS_REPORT 
+1.21079         IVPHELM_REGISTER     pHelmIvP        NODE_REPORT 
+1.21079         IVPHELM_REGISTER     pHelmIvP        AIS_REPORT_LOCAL 
+1.21079         IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+1.21080         IVPHELM_REGISTER     pHelmIvP        RETURN 
+1.21080         IVPHELM_REGISTER     pHelmIvP        DEPLOY 
+1.21080         IVPHELM_REGISTER     pHelmIvP        NAV_X 
+1.21080         IVPHELM_REGISTER     pHelmIvP        NAV_Y 
+1.21080         IVPHELM_REGISTER     pHelmIvP        NAV_SPEED 
+1.21080         IVPHELM_REGISTER     pHelmIvP        WPT_UPDATE 
+1.21080         IVPHELM_REGISTER     pHelmIvP        RETURN_UPDATE 
+1.21080         IVPHELM_REGISTER     pHelmIvP        SPD 
+1.21080         IVPHELM_REGISTER     pHelmIvP        CONST_SPD_RESET 
+1.21080         IVPHELM_REGISTER     pHelmIvP        SPEED_UPDATE 
+1.21080         PLOGGER_CMD          pHelmIvP        COPY_FILE_REQUEST = alpha.bhv 
+1.21081         IVPHELM_DOMAIN       pHelmIvP        speed,0,4,41:course,0,359,360 
+1.21081         IVPHELM_MODESET      pHelmIvP         
+1.22123         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00974      
+1.22137         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00316      
+1.22381         DB_EVENT             MOOSDB_alpha    connected=pMarineViewer 
+1.27424         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.06036      
+1.27433         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00190      
+1.31390         NAV_X                uSimMarineV22   0.00000      
+1.31390         NAV_Y                uSimMarineV22   -20.00000    
+1.31390         NAV_LAT              uSimMarineV22   43.82512     
+1.31390         NAV_LONG             uSimMarineV22   -70.33040    
+1.31390         NAV_HEADING          uSimMarineV22   180.00000    
+1.31390         NAV_SPEED            uSimMarineV22   0.00000      
+1.31390         NAV_DEPTH            uSimMarineV22   0.00000      
+1.31390         SIMULATION_MODE      uSimMarineV22   TRUE 
+1.31390         NAV_Z                uSimMarineV22   -0.00000     
+1.31390         NAV_PITCH            uSimMarineV22   0.00000      
+1.31390         NAV_YAW              uSimMarineV22   -3.14159     
+1.31390         TRUE_X               uSimMarineV22   0.00000      
+1.31390         TRUE_Y               uSimMarineV22   -20.00000    
+1.31390         NAV_HEADING_OVER_GROUND uSimMarineV22   0.00000      
+1.31390         NAV_SPEED_OVER_GROUND uSimMarineV22   0.00000      
+1.31391         USIMMARINEV22_ITER_GAP uSimMarineV22   1.01011      
+1.31401         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00044      
+1.32599         DB_EVENT             MOOSDB_alpha    connected=pNodeReporter 
+1.32641         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.04348      
+1.32984         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.06858      
+1.37723         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01620      
+1.37724         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00058      
+1.39112         UXMS_854_ITER_GAP    uXMS_854        1.01085      
+1.39117         UXMS_854_ITER_LEN    uXMS_854        0.00026      
+1.43710         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.19754      
+1.43715         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00120      
+1.43796         APPCAST_REQ          uMAC_2909       node=all,app=all,duration=10.0,key=uMAC_2909startup,thresh=any 
+1.43805         APPCAST_REQ_ALL      uMAC_2909       node=all,app=all,duration=10.0,key=uMAC_2909startup,thresh=any 
+1.46202         IVPHELM_CPU          pHelmIvP        0.46405      
+1.46205         IVPHELM_STATE        pHelmIvP        PARK 
+1.46208         MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.46209         IVPHELM_ALLSTOP      pHelmIvP        ManualOverride 
+1.46211         DESIRED_SPEED        pHelmIvP        0.00000      
+1.46213         DESIRED_HEADING      pHelmIvP        0.00000      
+1.46214         PHELMIVP_ITER_LEN    pHelmIvP        0.00050      
+1.48814         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.02090      
+1.48818         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00086      
+1.53246         DB_EVENT             MOOSDB_alpha    connected=pRealm 
+1.53824         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00196      
+1.53829         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00104      
+1.56528         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00529      
+1.56534         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00046      
+1.58981         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03142      
+1.58986         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00104      
+1.59189         UXMS_854_ITER_GAP    uXMS_854        1.00387      
+1.59193         UXMS_854_ITER_LEN    uXMS_854        0.00022      
+1.64177         APPCAST_REQ          uMAC_2909       node=alpha,app=all,duration=0.1,key=uMAC_2909startup,thresh=any 
+1.64181         APPCAST_REQ_ALPHA    uMAC_2909       node=alpha,app=all,duration=0.1,key=uMAC_2909startup,thresh=any 
+1.64185         APPCAST_REQ          uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+1.64186         APPCAST_REQ_ALL      uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+1.64327         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.06902      
+1.64335         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00188      
+1.67622         PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+1.67704         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pkomunikatorSNR] 
+1.67709         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [psonarTask] 
+1.67709         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pRealm] 
+1.67710         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pNodeReporter] 
+1.67711         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pMarineViewer] 
+1.67711         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pHelmIvP] 
+1.67712         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pMarinePIDV22] 
+1.67712         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [uSimMarineV22] 
+1.67713         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pLogger] 
+1.70228         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.18048      
+1.70233         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00092      
+1.71694         PHELMIVP_ITER_GAP    pHelmIvP        1.01970      
+1.71695         IVPHELM_CPU          pHelmIvP        0.52118      
+1.71695         IVPHELM_STATE        pHelmIvP        PARK 
+1.71696         PHELMIVP_ITER_LEN    pHelmIvP        0.00008      
+1.71879         DB_EVENT             MOOSDB_alpha    connected=psonarTask 
+1.73944         PMARINEVIEWER_PID    pMarineViewer   21870.00000  
+1.75367         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.02752      
+1.75376         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00200      
+1.76096         REGION_INFO          pMarineViewer   lat_datum=43.8253, lon_datum=-70.3304, img_file=forrest19.tif, zoom=0.65, pan_x=-90, pan_y=-280 
+1.79223         UXMS_854_ITER_GAP    uXMS_854        1.00169      
+1.79322         UXMS_854_ITER_LEN    uXMS_854        0.00494      
+1.80553         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03726      
+1.80588         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00718      
+1.80628         DB_TIME              MOOSDB_alpha    1750059352.09186 
+1.80629         DB_UPTIME            MOOSDB_alpha    2.00706      
+1.80630         DB_CLIENTS           MOOSDB_alpha    psonarTask,pRealm,pNodeReporter,pMarineViewer,uProcessWatch,uMAC_2909,pHelmIvP,pMarinePIDV22,uXMS_854,uSimMarineV22,pLogger, 
+1.80747         DB_QOS               MOOSDB_alpha    pHelmIvP=0:3.04699:0.254869:0,pLogger=0:2.05708:1.158:0,pMarinePIDV22=0:1.29509:0.164032:0,pMarineViewer=0:0.325918:0.325918:0,pNodeReporter=0:0.301838:0.301838:0,pRealm=0:0.286102:0.286102:0,psonarTask=0:0.743151:0.743151:0,uMAC_2909=0:0.267982:0.267982:0,uProcessWatch=0:2.23112:2.23112:0,uSimMarineV22=0:6.91295:0.67091:0,uXMS_854=0:0.393867:0.288963:0, 
+1.81864         NAV_X                uSimMarineV22   0.00000      
+1.81864         NAV_Y                uSimMarineV22   -20.00000    
+1.81864         NAV_LAT              uSimMarineV22   43.82512     
+1.81864         NAV_LONG             uSimMarineV22   -70.33040    
+1.81864         NAV_HEADING          uSimMarineV22   180.00000    
+1.81864         NAV_SPEED            uSimMarineV22   0.00000      
+1.81864         NAV_DEPTH            uSimMarineV22   0.00000      
+1.81864         SIMULATION_MODE      uSimMarineV22   TRUE 
+1.81864         NAV_Z                uSimMarineV22   -0.00000     
+1.81864         NAV_PITCH            uSimMarineV22   0.00000      
+1.81864         NAV_YAW              uSimMarineV22   -3.14159     
+1.81864         TRUE_X               uSimMarineV22   0.00000      
+1.81864         TRUE_Y               uSimMarineV22   -20.00000    
+1.81864         NAV_HEADING_OVER_GROUND uSimMarineV22   0.00000      
+1.81864         NAV_SPEED_OVER_GROUND uSimMarineV22   0.00000      
+1.81865         USIMMARINEV22_ITER_GAP uSimMarineV22   1.01368      
+1.81915         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00202      
+0.60433         LOGGER_DIRECTORY     pLogger         ./MOOSLog_16_6_2025_____07_35_50 
+1.06140         USM_DRIFT_SUMMARY    uSimMarineV22   ang=0, mag=0, xmag=0, ymag=0 
+1.11640         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.11640         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.20958         PHELMIVP_PID         pHelmIvP        21856.00000  
+1.21077         DEPLOY               pHelmIvP:HELM_VAR_INIT false 
+1.21077         RETURN               pHelmIvP:HELM_VAR_INIT false 
+1.21080         IVPHELM_REGISTER     pHelmIvP        SPEED_UPDATE 
+1.21080         PLOGGER_CMD          pHelmIvP        COPY_FILE_REQUEST = alpha.bhv 
+1.21081         IVPHELM_DOMAIN       pHelmIvP        speed,0,4,41:course,0,359,360 
+1.21081         IVPHELM_MODESET      pHelmIvP         
+1.46208         MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.46209         IVPHELM_ALLSTOP      pHelmIvP        ManualOverride 
+1.46211         DESIRED_SPEED        pHelmIvP        0.00000      
+1.46213         DESIRED_HEADING      pHelmIvP        0.00000      
+1.64181         APPCAST_REQ_ALPHA    uMAC_2909       node=alpha,app=all,duration=0.1,key=uMAC_2909startup,thresh=any 
+1.64185         APPCAST_REQ          uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+1.64186         APPCAST_REQ_ALL      uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+1.67622         PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+1.67713         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pLogger] 
+1.73944         PMARINEVIEWER_PID    pMarineViewer   21870.00000  
+1.76096         REGION_INFO          pMarineViewer   lat_datum=43.8253, lon_datum=-70.3304, img_file=forrest19.tif, zoom=0.65, pan_x=-90, pan_y=-280 
+1.79223         UXMS_854_ITER_GAP    uXMS_854        1.00169      
+1.79322         UXMS_854_ITER_LEN    uXMS_854        0.00494      
+1.80628         DB_TIME              MOOSDB_alpha    1750059352.09186 
+1.80629         DB_UPTIME            MOOSDB_alpha    2.00706      
+1.80630         DB_CLIENTS           MOOSDB_alpha    psonarTask,pRealm,pNodeReporter,pMarineViewer,uProcessWatch,uMAC_2909,pHelmIvP,pMarinePIDV22,uXMS_854,uSimMarineV22,pLogger, 
+1.80747         DB_QOS               MOOSDB_alpha    pHelmIvP=0:3.04699:0.254869:0,pLogger=0:2.05708:1.158:0,pMarinePIDV22=0:1.29509:0.164032:0,pMarineViewer=0:0.325918:0.325918:0,pNodeReporter=0:0.301838:0.301838:0,pRealm=0:0.286102:0.286102:0,psonarTask=0:0.743151:0.743151:0,uMAC_2909=0:0.267982:0.267982:0,uProcessWatch=0:2.23112:2.23112:0,uSimMarineV22=0:6.91295:0.67091:0,uXMS_854=0:0.393867:0.288963:0, 
+1.81864         NAV_DEPTH            uSimMarineV22   0.00000      
+1.81864         NAV_HEADING          uSimMarineV22   180.00000    
+1.81864         NAV_HEADING_OVER_GROUND uSimMarineV22   0.00000      
+1.81864         NAV_LAT              uSimMarineV22   43.82512     
+1.81864         NAV_LONG             uSimMarineV22   -70.33040    
+1.81864         NAV_PITCH            uSimMarineV22   0.00000      
+1.81864         NAV_SPEED            uSimMarineV22   0.00000      
+1.81864         NAV_SPEED_OVER_GROUND uSimMarineV22   0.00000      
+1.81864         NAV_X                uSimMarineV22   0.00000      
+1.81864         NAV_Y                uSimMarineV22   -20.00000    
+1.81864         NAV_YAW              uSimMarineV22   -3.14159     
+1.81864         NAV_Z                uSimMarineV22   -0.00000     
+1.81864         SIMULATION_MODE      uSimMarineV22   TRUE 
+1.81864         TRUE_X               uSimMarineV22   0.00000      
+1.81864         TRUE_Y               uSimMarineV22   -20.00000    
+1.81865         USIMMARINEV22_ITER_GAP uSimMarineV22   1.01368      
+1.81915         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00202      
+1.85874         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.06418      
+1.85884         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00218      
+1.88308         PNODEREPORTER_PID    pNodeReporter   21914.00000  
+1.88308         PNODEREPORTER_PID    pNodeReporter   21914.00000  
+1.91094         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.04394      
+1.91096         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00064      
+1.92805         PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+1.92805         PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+1.92805         PROC_WATCH_ALL_OK    uProcessWatch   true 
+1.92805         PROC_WATCH_ALL_OK    uProcessWatch   true 
+1.92806         PROC_WATCH_FULL_SUMMARY uProcessWatch   pkomunikatorSNR(1/0),psonarTask(1/0),pRealm(1/0),pNodeReporter(1/0),pMarineViewer(1/0),pHelmIvP(1/0),pMarinePIDV22(1/0),uSimMarineV22(1/0),pLogger(1/0) 
+1.92806         PROC_WATCH_FULL_SUMMARY uProcessWatch   pkomunikatorSNR(1/0),psonarTask(1/0),pRealm(1/0),pNodeReporter(1/0),pMarineViewer(1/0),pHelmIvP(1/0),pMarinePIDV22(1/0),uSimMarineV22(1/0),pLogger(1/0) 
+1.92807         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+1.92807         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+1.92813         APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=1!@#node=alpha!@#iter=1!@#messages=Summary: All Present!@!@Antler List: pHelmIvP,pLogger,pMarinePIDV22,pMarineViewer!@             pNodeReporter,pRealm,pkomunikatorSNR,psonarTask!@             uSimMarineV22!@!@                                          Current    Max!@ProcName          Watch Reason   Status   CPU Load   CPU Load!@---------------   ------------   ------   --------   --------!@pHelmIvP          ANT       DB   [7;32mOK[0m       0.46       0.46!@pLogger           ANT       DB   [7;32mOK[0m       0.68       0.68!@pMarinePIDV22     ANT       DB   [7;32mOK[0m       0.91       0.91!@pMarineViewer     ANT       DB   [7;32mOK[0m       0.00       0.00!@pNodeReporter     ANT       DB   [7;32mOK[0m       0.00       0.00!@pRealm            ANT       DB   [7;32mOK[0m       0.00       0.00!@pkomunikatorSNR   ANT            [7;32mOK[0m       0.00       0.00!@psonarTask        ANT       DB   [7;32mOK[0m       0.00       0.00!@uSimMarineV22     ANT       DB   [7;32mOK[0m       1.16       1.16!@!@#!@#events_total=8!@#events=[0.00]: Noted to be present: [psonarTask]!@[0.00]: Noted to be present: [pRealm]!@[0.00]: Noted to be present: [pNodeReporter]!@[0.00]: Noted to be present: [pMarineViewer]!@[0.00]: Noted to be present: [pHelmIvP]!@[0.00]: Noted to be present: [pMarinePIDV22]!@[0.00]: Noted to be present: [uSimMarineV22]!@[0.00]: Noted to be present: [pLogger]!@#run_warning_total=0!@# 
+1.93556         DB_EVENT             MOOSDB_alpha    connected=pkomunikatorSNR 
+1.93556         DB_EVENT             MOOSDB_alpha    connected=pkomunikatorSNR 
+1.97721         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.32544      
+1.97721         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.32544      
+1.97729         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00180      
+1.97729         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00180      
+1.98135         PHELMIVP_ITER_GAP    pHelmIvP        1.05764      
+1.98135         PHELMIVP_ITER_GAP    pHelmIvP        1.05764      
+1.98136         IVPHELM_CPU          pHelmIvP        0.52118      
+1.98136         IVPHELM_CPU          pHelmIvP        0.52118      
+1.98136         IVPHELM_STATE        pHelmIvP        PARK 
+1.98136         IVPHELM_STATE        pHelmIvP        PARK 
+1.98136         PHELMIVP_ITER_LEN    pHelmIvP        0.00005      
+1.98136         PHELMIVP_ITER_LEN    pHelmIvP        0.00005      
+1.99146         APPCAST_REQ          pMarineViewer   node=all,app=all,duration=0.1,key=pMarineViewerstartup,thresh=any 
+1.99150         APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=0.1,key=pMarineViewerstartup,thresh=any 
+1.99150         REGION_INFO          pMarineViewer   lat_datum=43.8253, lon_datum=-70.3304, img_file=forrest19.tif, zoom=0.65, pan_x=-90, pan_y=-280 
+1.99226         HELM_MAP_CLEAR       pMarineViewer   0.00000      
+1.99226         PMV_CONNECT          pMarineViewer   0.00000      
+1.99229         PMARINEVIEWER_ITER_LEN pMarineViewer   0.00014      
+1.99231         APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=1!@#node=alpha!@#iter=1!@#messages=Tiff File: forrest19.tif!@Tiff File (Current): forrest19.tif!@------------------ !@Total GeoShapes:   0!@Clear GeoShapes:   0!@NodeReports Recd:  0!@Node Rpt Rate(R):  0!@Node Rpt Rate(W):  0!@Node Report Vars:  NODE_REPORT_LOCAL,NODE_REPORT!@Mission Hash:      mhash=250616-0735W-GLIB-BOON,utc=1750059352.05!@Mission Hash Var:  MISSION_HASH!@Block Heartbeat:   false!@------------------ !@AC Iterations:     1!@PMV Iterations:    1!@------------------ !@RC Count:          0!@WC Count:          0!@Draw Count:       1!@Draw Count Rate:  3.97894!@Curr Time:        1750059352.28!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          1750059352.27688!@CmdFolio size:    0!@!@Visual Settings: !@  window pan_x:  -90.00!@  window pan_y:  -280.00!@  window  zoom:  0.65!@  vehicle zoom:  1.5!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.99498         UXMS_854_ITER_GAP    uXMS_854        1.01378      
+1.99538         UXMS_854_ITER_LEN    uXMS_854        0.00196      
+1.99501         REGION_INFO          pMarineViewer   lat_datum=43.8253, lon_datum=-70.3304, img_file=forrest19.tif, zoom=0.65, pan_x=-90, pan_y=-280 
+1.99504         MISSION_HASH         pMarineViewer   mhash=250616-0735W-GLIB-BOON,utc=1750059352.05 
+1.99504         MHASH                pMarineViewer   GLIB-BOON 
+1.99505         APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+1.99505         APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.02850         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.02606      
+2.02852         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00036      
+2.07009         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00578      
+2.07012         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00011      
+2.07024         APPCAST              uSimMarineV22   proc=uSimMarineV22!@#iter=5!@#node=alpha!@#iter=5!@#messages=Enabled:  true!@TurnRate: 95!@Datum: 43.8253,-70.3304!@Sailing:!@  WindModel: spd=0, dir=0!@  PolarPlot: !@  Enabled:   false!@!@!@  Start Pose    Current Pose (NAV)     Current Pose (GT)!@------- -----   ------- ------------   ------- ---------!@Headng: 180     Headng: 180             (same) -!@ Speed: 0        Speed: 0                      -!@ Depth: 0        Depth: 0                      -!@   Alt: 0          Alt: 0                      -!@ (X,Y): 0,-20    (X,Y): 0,-20                  -!@   Lat: 0          Lat: 43.82511993            -!@   Lon: 0          Lon: -70.33039599           -!@!@Present Buoyancy rate: 0.025!@        Starting rate: 0.025!@!@Ext Drift  X   Y   |  Mag  Ang  |  Rot.  |  Source(s)!@---------  --  --  |  ---  ---  |  ----  |  -----------!@ Starting  0   0   |  0    0    |  0     |  init_config!@  Present  0   0   |  0    0    |  0     |  n/a!@!@Velocity Information: !@--------------------- !@     DESIRED_THRUST=0 ==> SPEED=0!@     Using Thrust_Factor: false!@           Using Sailing: false!@    PID Coupled: false!@     Positive Thrust Map: 20,1, 40,2, 60,3, 80,4, 100,5!@     Negative Thrust Map: n/a!@        Max Accereration: 0!@        Max Decereration: 0.5!@!@             Thrust Mode: normal!@     Thrust Mode Reverse: false!@        DESIRED_THRUST_L: n/a!@        DESIRED_THRUST_R: n/a!@!@Depth Information: !@------------------ !@           Max Depth Rate: 0.5!@     Max Depth Rate Speed: 2!@              Water Depth: 0!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.07864         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00264      
+2.07880         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00338      
+2.12895         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00614      
+2.12906         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00248      
+2.17907         UPROCESSWATCH_ITER_GAP uProcessWatch   1.00407      
+2.17910         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00014      
+2.18159         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.05282      
+2.18161         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00064      
+2.18165         APPCAST              pMarinePIDV22   proc=pMarinePIDV22!@#iter=21!@#node=alpha!@#iter=21!@#messages=Frequency:18.682!@Speed Factor:    20!@PID has_control: false!@  PID override: true!@  PID stale:    false!@!@PID Settings: !@----------------------------!@Thrust Cap Enabled: false!@Thrust Cap: 100.00000!@YAW_PID_KP             = 0.9!@YAW_PID_KD             = 0.3!@YAW_PID_KI             = 0.3!@YAW_PID_INTEGRAL_LIMIT = 0.07!@Max rudder: 100!@----------------------------!@SPEED_PID_KP             = 1!@SPEED_PID_KD             = 0!@SPEED_PID_KI             = 0!@SPEED_PID_INTEGRAL_LIMIT = 0.07!@Max thrust: 100!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.19481         UXMS_854_ITER_GAP    uXMS_854        0.99911      
+2.19509         UXMS_854_ITER_LEN    uXMS_854        0.00142      
+2.23301         PHELMIVP_ITER_GAP    pHelmIvP        1.00663      
+2.23305         IVPHELM_CPU          pHelmIvP        0.42772      
+2.23305         IVPHELM_STATE        pHelmIvP        PARK 
+2.23305         PHELMIVP_ITER_LEN    pHelmIvP        0.00016      
+2.23310         APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=4!@#node=alpha!@#iter=4!@#messages=  Comms Policy: open!@  Helm Iteration:  0!@  IvP Functions:   0!@  Pieces (Formed): 0!@  Pieces (Cached): 0!@  Mode(s):         !@  SolveTime:   0.00   (max=0.00)!@  CreateTime:  0.00   (max=0.00)!@  LoopTime:    0.00   (max=0.00)!@  Halted:         false   (0 warnings)!@  Active Goal:    false!@Helm Decision: []!@Behaviors Spawnable: --------- (0)!@Behaviors Active: ---------- (0)!@Behaviors Running: --------- (0)!@Behaviors Idle: ------------ (0)!@  !@Behaviors Completed: ------- (0)!@Hold-On-Apps: none!@!@!@Variable  Behavior  Time  Iter  Value!@--------  --------  ----  ----  -----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.23321         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03234      
+2.23347         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00536      
+2.23860         REALMCAST_CHANNELS   pRealm          node=alpha#channels=MOOSDB_alpha,pHelmIvP,pLogger,pMarinePIDV22,pMarineViewer,pNodeReporter,pRealm,psonarTask,uProcessWatch,uSimMarineV22, 
+2.23860         PREALM_ITER_LEN      pRealm          0.00004      
+2.23878         APPCAST              pRealm          proc=pRealm!@#iter=1!@#node=alpha!@#iter=1!@#messages=Configuration: !@--------------------------------------------!@  RelCast Interval: 0.80!@  Summary Interval: 5.00!@  Hist Variables:   !@  Wrap Length:  90!@  Trunc Length: 270!@  Max Msg Hist: 10!@!@MOOS Community State: !@--------------------------------------------!@  MOOSDB Name: MOOSDB_alpha!@   Known Apps: 12!@   Known Apps: MOOSDB_alpha,pHelmIvP,pLogger,pMarinePIDV22,!@               pMarineViewer,pNodeReporter,pRealm,!@               psonarTask,uMAC_2909,uProcessWatch,!@               uSimMarineV22,uXMS_854!@  Total SVars: 210!@  Total PVars: 54!@  Unique Vars: 211!@  UTC Time:    1750059352.52!@  Local Time:  0.20!@  Summaries:   1!@!@Recent RealmCasts or WatchCasts:!@--------------------------------------------!@  Total RealmCasts: 0!@  Total WatchCasts: 0!@--------------------------------------------!@Count  Time  Client  Content!@-----  ----  ------  -------!@Currently Active Clients:!@--------------------------------------------!@Client  Active  Content!@------  ------  -------!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.24266         APPCAST_REQ          pMarineViewer   node=all,app=all,duration=1.1,key=pMarineViewernewproc,thresh=any 
+2.24318         APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=1.1,key=pMarineViewernewproc,thresh=any 
+2.24318         REGION_INFO          pMarineViewer   lat_datum=43.8253, lon_datum=-70.3304, img_file=forrest19.tif, zoom=0.65, pan_x=-90, pan_y=-280 
+2.24405         PMARINEVIEWER_ITER_GAP pMarineViewer   1.00714      
+2.24406         PMARINEVIEWER_ITER_LEN pMarineViewer   0.00006      
+2.24512         APPCAST_REQ          uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+2.24519         APPCAST_REQ_ALL      uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+2.25236         REGION_INFO          pMarineViewer   lat_datum=43.8253, lon_datum=-70.3304, img_file=forrest19.tif, zoom=0.65, pan_x=-90, pan_y=-280 
+2.25237         APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.25237         APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:alpha,thresh=any 
+2.27492         VIEW_POINT           psonarTask      x=40,y=-30,label=point1,color=red,vertex_size=4 
+2.28496         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03526      
+2.29023         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.10538      
+2.32134         NAV_X                uSimMarineV22   0.00000      
+2.32134         NAV_Y                uSimMarineV22   -20.00000    
+2.32134         NAV_LAT              uSimMarineV22   43.82512     
+2.32134         NAV_LONG             uSimMarineV22   -70.33040    
+2.32134         NAV_HEADING          uSimMarineV22   180.00000    
+2.32134         NAV_SPEED            uSimMarineV22   0.00000      
+2.32134         NAV_DEPTH            uSimMarineV22   0.00000      
+2.32134         SIMULATION_MODE      uSimMarineV22   TRUE 
+2.32134         NAV_Z                uSimMarineV22   -0.00000     
+2.32134         NAV_PITCH            uSimMarineV22   0.00000      
+2.32134         NAV_YAW              uSimMarineV22   -3.14159     
+2.32134         TRUE_X               uSimMarineV22   0.00000      
+2.32134         TRUE_Y               uSimMarineV22   -20.00000    
+2.32134         NAV_HEADING_OVER_GROUND uSimMarineV22   0.00000      
+2.32134         NAV_SPEED_OVER_GROUND uSimMarineV22   0.00000      
+2.32134         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00500      
+2.32532         USIMMARINEV22_ITER_LEN uSimMarineV22   0.01590      
+2.33888         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.07818      
+2.33889         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00040      
+2.39154         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.05314      
+2.39156         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00066      
+2.39249         NODE_REPORT_LOCAL_FIRST pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,YAW=-1.5707963,TIME=1750059352.68,LENGTH=4 
+2.39249         NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,YAW=-1.5707963,TIME=1750059352.68,LENGTH=4 
+2.39249         PNR_POST_GAP         pNodeReporter   0.00000      
+2.39250         PNODEREPORTER_ITER_LEN pNodeReporter   0.00006      
+2.39254         APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=1!@#node=alpha!@#iter=1!@#messages=tr_interval:0.5!@extrap_enabled:    false!@extrap_pos_thresh: 0.25!@extrap_hdg_thresh: 1!@extrap_max_gap:    0.25!@Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@    Vehicle group: !@!@CrossFill Policy:!@----------------------------!@ cross_fill_policy: literal!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   alt_nav_prefix: !@     alt_nav_name: _GT!@    alt_nav_group: !@ alt_nav_postings: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 1!@ Latest Report: NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,!@                LAT=43.82511993,LON=-70.33039599,TYPE=kayak,!@                COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,!@                YAW=-1.5707963,TIME=1750059352.68,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.39604         UXMS_854_ITER_GAP    uXMS_854        1.00619      
+2.39611         UXMS_854_ITER_LEN    uXMS_854        0.00033      
+2.42961         UPROCESSWATCH_ITER_GAP uProcessWatch   1.00214      
+2.42965         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00016      
+2.42980         APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=3!@#node=alpha!@#iter=3!@#messages=Summary: All Present!@!@Antler List: pHelmIvP,pLogger,pMarinePIDV22,pMarineViewer!@             pNodeReporter,pRealm,pkomunikatorSNR,psonarTask!@             uSimMarineV22!@!@                                          Current    Max!@ProcName          Watch Reason   Status   CPU Load   CPU Load!@---------------   ------------   ------   --------   --------!@pHelmIvP          ANT       DB   [7;32mOK[0m       0.46       0.46!@pLogger           ANT       DB   [7;32mOK[0m       0.68       0.68!@pMarinePIDV22     ANT       DB   [7;32mOK[0m       0.91       0.91!@pMarineViewer     ANT       DB   [7;32mOK[0m       7.09       7.09!@pNodeReporter     ANT       DB   [7;32mOK[0m       0.30       0.30!@pRealm            ANT       DB   [7;32mOK[0m       0.92       0.92!@pkomunikatorSNR   ANT            [7;32mOK[0m       0.00       0.00!@psonarTask        ANT       DB   [7;32mOK[0m       0.00       0.00!@uSimMarineV22     ANT       DB   [7;32mOK[0m       1.16       1.16!@!@#!@#events_total=8!@#events=[0.00]: Noted to be present: [psonarTask]!@[0.00]: Noted to be present: [pRealm]!@[0.00]: Noted to be present: [pNodeReporter]!@[0.00]: Noted to be present: [pMarineViewer]!@[0.00]: Noted to be present: [pHelmIvP]!@[0.00]: Noted to be present: [pMarinePIDV22]!@[0.00]: Noted to be present: [uSimMarineV22]!@[0.00]: Noted to be present: [pLogger]!@#run_warning_total=0!@# 
+2.43783         PREALM_ITER_GAP      pRealm          0.99619      
+2.43790         PREALM_ITER_LEN      pRealm          0.00032      
+2.44587         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.08308      
+2.44596         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00562      
+2.48508         PHELMIVP_ITER_GAP    pHelmIvP        1.00828      
+2.48511         IVPHELM_CPU          pHelmIvP        0.42772      
+2.48511         IVPHELM_STATE        pHelmIvP        PARK 
+2.48511         PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+2.49779         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.04022      
+2.49784         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00294      
+2.49793         PMARINEVIEWER_ITER_GAP pMarineViewer   1.01554      
+2.49799         PMARINEVIEWER_ITER_LEN pMarineViewer   0.00025      
+2.49809         APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=3!@#node=alpha!@#iter=3!@#messages=Tiff File: forrest19.tif!@Tiff File (Current): forrest19.tif!@------------------ !@Total GeoShapes:   0!@Clear GeoShapes:   0!@NodeReports Recd:  0!@Node Rpt Rate(R):  0!@Node Rpt Rate(W):  0!@Node Report Vars:  NODE_REPORT_LOCAL,NODE_REPORT!@Mission Hash:      mhash=250616-0735W-GLIB-BOON,utc=1750059352.05!@Mission Hash Var:  MISSION_HASH!@Block Heartbeat:   false!@------------------ !@AC Iterations:     3!@PMV Iterations:    2!@------------------ !@RC Count:          0!@WC Count:          0!@Draw Count:       5!@Draw Count Rate:  6.60507!@Curr Time:        1750059352.53!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00157!@CmdFolio size:    0!@!@Visual Settings: !@  window pan_x:  -90.00!@  window pan_y:  -280.00!@  window  zoom:  0.65!@  vehicle zoom:  1.5!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.50505         DB_EVENT             MOOSDB_alpha    disconnected=pMarineViewer 
+2.55030         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.05208      
+2.55035         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00112      
+2.57287         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00608      
+2.57293         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00027      
+2.57344         APPCAST              uSimMarineV22   proc=uSimMarineV22!@#iter=7!@#node=alpha!@#iter=7!@#messages=Enabled:  true!@TurnRate: 95!@Datum: 43.8253,-70.3304!@Sailing:!@  WindModel: spd=0, dir=0!@  PolarPlot: !@  Enabled:   false!@!@!@  Start Pose    Current Pose (NAV)     Current Pose (GT)!@------- -----   ------- ------------   ------- ---------!@Headng: 180     Headng: 180             (same) -!@ Speed: 0        Speed: 0                      -!@ Depth: 0        Depth: 0                      -!@   Alt: 0          Alt: 0                      -!@ (X,Y): 0,-20    (X,Y): 0,-20                  -!@   Lat: 0          Lat: 43.82511993            -!@   Lon: 0          Lon: -70.33039599           -!@!@Present Buoyancy rate: 0.025!@        Starting rate: 0.025!@!@Ext Drift  X   Y   |  Mag  Ang  |  Rot.  |  Source(s)!@---------  --  --  |  ---  ---  |  ----  |  -----------!@ Starting  0   0   |  0    0    |  0     |  init_config!@  Present  0   0   |  0    0    |  0     |  n/a!@!@Velocity Information: !@--------------------- !@     DESIRED_THRUST=0 ==> SPEED=0!@     Using Thrust_Factor: false!@           Using Sailing: false!@    PID Coupled: false!@     Positive Thrust Map: 20,1, 40,2, 60,3, 80,4, 100,5!@     Negative Thrust Map: n/a!@        Max Accereration: 0!@        Max Decereration: 0.5!@!@             Thrust Mode: normal!@     Thrust Mode Reverse: false!@        DESIRED_THRUST_L: n/a!@        DESIRED_THRUST_R: n/a!@!@Depth Information: !@------------------ !@           Max Depth Rate: 0.5!@     Max Depth Rate Speed: 2!@              Water Depth: 0!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.60105         UXMS_854_ITER_GAP    uXMS_854        1.02503      
+2.60109         UXMS_854_ITER_LEN    uXMS_854        0.00018      
+2.60188         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03156      
+2.60190         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00050      
+2.64205         PREALM_ITER_GAP      pRealm          1.02106      
+2.64205         PREALM_ITER_LEN      pRealm          0.00005      
+2.65450         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.05228      
+2.65455         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00116      
+2.67998         UPROCESSWATCH_ITER_GAP uProcessWatch   1.00146      
+2.68001         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00018      
+2.70533         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01668      
+2.70543         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00214      
+2.70548         APPCAST              pMarinePIDV22   proc=pMarinePIDV22!@#iter=31!@#node=alpha!@#iter=31!@#messages=Frequency:18.813!@Speed Factor:    20!@PID has_control: false!@  PID override: true!@  PID stale:    false!@!@PID Settings: !@----------------------------!@Thrust Cap Enabled: false!@Thrust Cap: 100.00000!@YAW_PID_KP             = 0.9!@YAW_PID_KD             = 0.3!@YAW_PID_KI             = 0.3!@YAW_PID_INTEGRAL_LIMIT = 0.07!@Max rudder: 100!@----------------------------!@SPEED_PID_KP             = 1!@SPEED_PID_KD             = 0!@SPEED_PID_KI             = 0!@SPEED_PID_INTEGRAL_LIMIT = 0.07!@Max thrust: 100!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.73895         PHELMIVP_ITER_GAP    pHelmIvP        1.01546      
+2.73902         IVPHELM_CPU          pHelmIvP        0.28684      
+2.73903         IVPHELM_STATE        pHelmIvP        PARK 
+2.73903         PHELMIVP_ITER_LEN    pHelmIvP        0.00033      
+2.73909         APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=6!@#node=alpha!@#iter=6!@#messages=  Comms Policy: open!@  Helm Iteration:  0!@  IvP Functions:   0!@  Pieces (Formed): 0!@  Pieces (Cached): 0!@  Mode(s):         !@  SolveTime:   0.00   (max=0.00)!@  CreateTime:  0.00   (max=0.00)!@  LoopTime:    0.00   (max=0.00)!@  Halted:         false   (0 warnings)!@  Active Goal:    false!@Helm Decision: []!@Behaviors Spawnable: --------- (0)!@Behaviors Active: ---------- (0)!@Behaviors Running: --------- (0)!@Behaviors Idle: ------------ (0)!@  !@Behaviors Completed: ------- (0)!@Hold-On-Apps: none!@!@!@Variable  Behavior  Time  Iter  Value!@--------  --------  ----  ----  -----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.76025         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.09834      
+2.76034         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00204      
+2.77561         VIEW_POLYGON         psonarTask      pts={0,-20:0,-20:0,-20:0,-20:0,-20:0,-20},label=SONAR1,edge_color=red,fill_color=blue,fill_transparency=0.3 
+2.77561         VIEW_POLYGON         psonarTask      pts={0,-20:0,-20:0,-20:0,-20:0,-20:0,-20},label=SONAR2,edge_color=red,fill_color=blue,fill_transparency=0.3 
+2.77562         PSONARTASK_ITER_LEN  psonarTask      0.00009      
+2.77599         APPCAST              psonarTask      proc=psonarTask!@#iter=1!@#node=alpha!@#iter=1!@#messages=============================================!@File:                                       !@============================================!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four!@!@#config_warnings=Unhandled config line: point1=x=40,y=-30,label=point1,color=red,vertex_size=4!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.80648         UXMS_854_ITER_GAP    uXMS_854        1.02714      
+2.80653         UXMS_854_ITER_LEN    uXMS_854        0.00024      
+2.81067         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00842      
+2.81071         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00102      
+2.82845         NAV_X                uSimMarineV22   0.00000      
+2.82845         NAV_Y                uSimMarineV22   -20.00000    
+2.82845         NAV_LAT              uSimMarineV22   43.82512     
+2.82845         NAV_LONG             uSimMarineV22   -70.33040    
+2.82845         NAV_HEADING          uSimMarineV22   180.00000    
+2.82845         NAV_SPEED            uSimMarineV22   0.00000      
+2.82845         NAV_DEPTH            uSimMarineV22   0.00000      
+2.82845         SIMULATION_MODE      uSimMarineV22   TRUE 
+2.82845         NAV_Z                uSimMarineV22   -0.00000     
+2.82845         NAV_PITCH            uSimMarineV22   0.00000      
+2.82845         NAV_YAW              uSimMarineV22   -3.14159     
+2.82845         TRUE_X               uSimMarineV22   0.00000      
+2.82845         TRUE_Y               uSimMarineV22   -20.00000    
+2.82845         NAV_HEADING_OVER_GROUND uSimMarineV22   0.00000      
+2.82845         NAV_SPEED_OVER_GROUND uSimMarineV22   0.00000      
+2.82846         USIMMARINEV22_ITER_GAP uSimMarineV22   1.02235      
+2.82972         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00510      
+2.84283         PREALM_ITER_GAP      pRealm          1.00394      
+2.84285         PREALM_ITER_LEN      pRealm          0.00011      
+2.84292         APPCAST              pRealm          proc=pRealm!@#iter=4!@#node=alpha!@#iter=4!@#messages=Configuration: !@--------------------------------------------!@  RelCast Interval: 0.80!@  Summary Interval: 5.00!@  Hist Variables:   !@  Wrap Length:  90!@  Trunc Length: 270!@  Max Msg Hist: 10!@!@MOOS Community State: !@--------------------------------------------!@  MOOSDB Name: MOOSDB_alpha!@   Known Apps: 12!@   Known Apps: MOOSDB_alpha,pHelmIvP,pLogger,pMarinePIDV22,!@               pMarineViewer,pNodeReporter,pRealm,!@               psonarTask,uMAC_2909,uProcessWatch,!@               uSimMarineV22,uXMS_854!@  Total SVars: 210!@  Total PVars: 54!@  Unique Vars: 211!@  UTC Time:    1750059353.13!@  Local Time:  0.81!@  Summaries:   1!@!@Recent RealmCasts or WatchCasts:!@--------------------------------------------!@  Total RealmCasts: 0!@  Total WatchCasts: 0!@--------------------------------------------!@Count  Time  Client  Content!@-----  ----  ------  -------!@Currently Active Clients:!@--------------------------------------------!@Client  Active  Content!@------  ------  -------!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.84934         APPCAST_REQ          uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+2.84938         APPCAST_REQ_ALL      uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+2.86120         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01072      
+2.86124         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00086      
+2.89389         PNODEREPORTER_ITER_GAP pNodeReporter   1.00285      
+2.89401         NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=1,YAW=-1.5707963,TIME=1750059353.18,LENGTH=4 
+2.89402         PNR_POST_GAP         pNodeReporter   0.50143      
+2.89402         PNODEREPORTER_ITER_LEN pNodeReporter   0.00026      
+2.89406         APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=2!@#node=alpha!@#iter=2!@#messages=tr_interval:0.5!@extrap_enabled:    false!@extrap_pos_thresh: 0.25!@extrap_hdg_thresh: 1!@extrap_max_gap:    0.25!@Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@    Vehicle group: !@!@CrossFill Policy:!@----------------------------!@ cross_fill_policy: literal!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   alt_nav_prefix: !@     alt_nav_name: _GT!@    alt_nav_group: !@ alt_nav_postings: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 2!@ Latest Report: NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,!@                LAT=43.82511993,LON=-70.33039599,TYPE=kayak,!@                COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,!@                INDEX=1,YAW=-1.5707963,TIME=1750059353.18,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.91472         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.07022      
+2.91483         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00250      
+2.93133         UPROCESSWATCH_ITER_GAP uProcessWatch   1.00542      
+2.93133         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00002      
+2.93140         APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=5!@#node=alpha!@#iter=5!@#messages=Summary: All Present!@!@Antler List: pHelmIvP,pLogger,pMarinePIDV22,pMarineViewer!@             pNodeReporter,pRealm,pkomunikatorSNR,psonarTask!@             uSimMarineV22!@!@                                          Current    Max!@ProcName          Watch Reason   Status   CPU Load   CPU Load!@---------------   ------------   ------   --------   --------!@pHelmIvP          ANT       DB   [7;32mOK[0m       0.46       0.46!@pLogger           ANT       DB   [7;32mOK[0m       1.42       1.42!@pMarinePIDV22     ANT       DB   [7;32mOK[0m       0.91       0.91!@pMarineViewer     ANT       DB   [7;32mOK[0m       7.09       7.09!@pNodeReporter     ANT       DB   [7;32mOK[0m       0.30       0.30!@pRealm            ANT       DB   [7;32mOK[0m       0.92       0.92!@pkomunikatorSNR   ANT            [7;32mOK[0m       0.00       0.00!@psonarTask        ANT       DB   [7;32mOK[0m       0.45       0.45!@uSimMarineV22     ANT       DB   [7;32mOK[0m       1.16       1.16!@!@#!@#events_total=8!@#events=[0.00]: Noted to be present: [psonarTask]!@[0.00]: Noted to be present: [pRealm]!@[0.00]: Noted to be present: [pNodeReporter]!@[0.00]: Noted to be present: [pMarineViewer]!@[0.00]: Noted to be present: [pHelmIvP]!@[0.00]: Noted to be present: [pMarinePIDV22]!@[0.00]: Noted to be present: [uSimMarineV22]!@[0.00]: Noted to be present: [pLogger]!@#run_warning_total=0!@# 
+2.96584         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.02248      
+2.96589         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00112      
+2.98781         SONAR_CONF           pkomunikatorSNR range=10, angle=90 
+2.98781         PKOMUNIKATORSNR_ITER_LEN pkomunikatorSNR 0.00001      
+2.98784         APPCAST              pkomunikatorSNR proc=pkomunikatorSNR!@#iter=1!@#node=alpha!@#iter=1!@#messages=============================================!@File:                                       !@============================================!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.99014         PHELMIVP_ITER_GAP    pHelmIvP        1.00477      
+2.99017         IVPHELM_CPU          pHelmIvP        0.28684      
+2.99017         IVPHELM_STATE        pHelmIvP        PARK 
+2.99017         PHELMIVP_ITER_LEN    pHelmIvP        0.00014      
+3.00706         UXMS_854_ITER_GAP    uXMS_854        1.00291      
+3.00720         UXMS_854_ITER_LEN    uXMS_854        0.00070      
+3.01852         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.05362      
+3.01870         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00374      
+0.60433         LOGGER_DIRECTORY     pLogger         ./MOOSLog_16_6_2025_____07_35_50 
+1.06140         USM_DRIFT_SUMMARY    uSimMarineV22   ang=0, mag=0, xmag=0, ymag=0 
+1.11640         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.11640         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.20958         PHELMIVP_PID         pHelmIvP        21856.00000  
+1.21077         DEPLOY               pHelmIvP:HELM_VAR_INIT false 
+1.21077         RETURN               pHelmIvP:HELM_VAR_INIT false 
+1.21080         IVPHELM_REGISTER     pHelmIvP        SPEED_UPDATE 
+1.21080         PLOGGER_CMD          pHelmIvP        COPY_FILE_REQUEST = alpha.bhv 
+1.21081         IVPHELM_DOMAIN       pHelmIvP        speed,0,4,41:course,0,359,360 
+1.21081         IVPHELM_MODESET      pHelmIvP         
+1.46208         MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.46209         IVPHELM_ALLSTOP      pHelmIvP        ManualOverride 
+1.46211         DESIRED_SPEED        pHelmIvP        0.00000      
+1.46213         DESIRED_HEADING      pHelmIvP        0.00000      
+1.64181         APPCAST_REQ_ALPHA    uMAC_2909       node=alpha,app=all,duration=0.1,key=uMAC_2909startup,thresh=any 
+1.67622         PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+1.67713         PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pLogger] 
+1.73944         PMARINEVIEWER_PID    pMarineViewer   21870.00000  
+1.80628         DB_TIME              MOOSDB_alpha    1750059352.09186 
+1.80629         DB_UPTIME            MOOSDB_alpha    2.00706      
+1.80630         DB_CLIENTS           MOOSDB_alpha    psonarTask,pRealm,pNodeReporter,pMarineViewer,uProcessWatch,uMAC_2909,pHelmIvP,pMarinePIDV22,uXMS_854,uSimMarineV22,pLogger, 
+1.80747         DB_QOS               MOOSDB_alpha    pHelmIvP=0:3.04699:0.254869:0,pLogger=0:2.05708:1.158:0,pMarinePIDV22=0:1.29509:0.164032:0,pMarineViewer=0:0.325918:0.325918:0,pNodeReporter=0:0.301838:0.301838:0,pRealm=0:0.286102:0.286102:0,psonarTask=0:0.743151:0.743151:0,uMAC_2909=0:0.267982:0.267982:0,uProcessWatch=0:2.23112:2.23112:0,uSimMarineV22=0:6.91295:0.67091:0,uXMS_854=0:0.393867:0.288963:0, 
+1.88308         PNODEREPORTER_PID    pNodeReporter   21914.00000  
+1.92805         PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+1.92805         PROC_WATCH_ALL_OK    uProcessWatch   true 
+1.92806         PROC_WATCH_FULL_SUMMARY uProcessWatch   pkomunikatorSNR(1/0),psonarTask(1/0),pRealm(1/0),pNodeReporter(1/0),pMarineViewer(1/0),pHelmIvP(1/0),pMarinePIDV22(1/0),uSimMarineV22(1/0),pLogger(1/0) 
+1.99226         HELM_MAP_CLEAR       pMarineViewer   0.00000      
+1.99226         PMV_CONNECT          pMarineViewer   0.00000      
+1.99504         MISSION_HASH         pMarineViewer   mhash=250616-0735W-GLIB-BOON,utc=1750059352.05 
+1.99504         MHASH                pMarineViewer   GLIB-BOON 
+2.23860         REALMCAST_CHANNELS   pRealm          node=alpha#channels=MOOSDB_alpha,pHelmIvP,pLogger,pMarinePIDV22,pMarineViewer,pNodeReporter,pRealm,psonarTask,uProcessWatch,uSimMarineV22, 
+2.25236         REGION_INFO          pMarineViewer   lat_datum=43.8253, lon_datum=-70.3304, img_file=forrest19.tif, zoom=0.65, pan_x=-90, pan_y=-280 
+2.27492         VIEW_POINT           psonarTask      x=40,y=-30,label=point1,color=red,vertex_size=4 
+2.39249         NODE_REPORT_LOCAL_FIRST pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,YAW=-1.5707963,TIME=1750059352.68,LENGTH=4 
+2.49793         PMARINEVIEWER_ITER_GAP pMarineViewer   1.01554      
+2.49799         PMARINEVIEWER_ITER_LEN pMarineViewer   0.00025      
+2.50505         DB_EVENT             MOOSDB_alpha    disconnected=pMarineViewer 
+2.77561         VIEW_POLYGON         psonarTask      pts={0,-20:0,-20:0,-20:0,-20:0,-20:0,-20},label=SONAR2,edge_color=red,fill_color=blue,fill_transparency=0.3 
+2.77562         PSONARTASK_ITER_LEN  psonarTask      0.00009      
+2.82845         NAV_DEPTH            uSimMarineV22   0.00000      
+2.82845         NAV_HEADING          uSimMarineV22   180.00000    
+2.82845         NAV_HEADING_OVER_GROUND uSimMarineV22   0.00000      
+2.82845         NAV_LAT              uSimMarineV22   43.82512     
+2.82845         NAV_LONG             uSimMarineV22   -70.33040    
+2.82845         NAV_PITCH            uSimMarineV22   0.00000      
+2.82845         NAV_SPEED            uSimMarineV22   0.00000      
+2.82845         NAV_SPEED_OVER_GROUND uSimMarineV22   0.00000      
+2.82845         NAV_X                uSimMarineV22   0.00000      
+2.82845         NAV_Y                uSimMarineV22   -20.00000    
+2.82845         NAV_YAW              uSimMarineV22   -3.14159     
+2.82845         NAV_Z                uSimMarineV22   -0.00000     
+2.82845         SIMULATION_MODE      uSimMarineV22   TRUE 
+2.82845         TRUE_X               uSimMarineV22   0.00000      
+2.82845         TRUE_Y               uSimMarineV22   -20.00000    
+2.84934         APPCAST_REQ          uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+2.84938         APPCAST_REQ_ALL      uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+2.89389         PNODEREPORTER_ITER_GAP pNodeReporter   1.00285      
+2.89401         NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=1,YAW=-1.5707963,TIME=1750059353.18,LENGTH=4 
+2.89402         PNR_POST_GAP         pNodeReporter   0.50143      
+2.89402         PNODEREPORTER_ITER_LEN pNodeReporter   0.00026      
+2.93133         UPROCESSWATCH_ITER_GAP uProcessWatch   1.00542      
+2.93133         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00002      
+2.98781         SONAR_CONF           pkomunikatorSNR range=10, angle=90 
+2.98781         PKOMUNIKATORSNR_ITER_LEN pkomunikatorSNR 0.00001      
+2.99014         PHELMIVP_ITER_GAP    pHelmIvP        1.00477      
+2.99017         IVPHELM_CPU          pHelmIvP        0.28684      
+2.99017         IVPHELM_STATE        pHelmIvP        PARK 
+2.99017         PHELMIVP_ITER_LEN    pHelmIvP        0.00014      
+3.00706         UXMS_854_ITER_GAP    uXMS_854        1.00291      
+3.00720         UXMS_854_ITER_LEN    uXMS_854        0.00070      
+3.04408         PREALM_ITER_GAP      pRealm          1.00626      
+3.04408         PREALM_ITER_GAP      pRealm          1.00626      
+3.04410         PREALM_ITER_LEN      pRealm          0.00008      
+3.04410         PREALM_ITER_LEN      pRealm          0.00008      
+3.07052         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.04006      
+3.07057         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00112      
+3.08048         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00814      
+3.08048         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00814      
+3.08050         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00008      
+3.08050         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00008      
+3.08077         APPCAST              uSimMarineV22   proc=uSimMarineV22!@#iter=9!@#node=alpha!@#iter=9!@#messages=Enabled:  true!@TurnRate: 95!@Datum: 43.8253,-70.3304!@Sailing:!@  WindModel: spd=0, dir=0!@  PolarPlot: !@  Enabled:   false!@!@!@  Start Pose    Current Pose (NAV)     Current Pose (GT)!@------- -----   ------- ------------   ------- ---------!@Headng: 180     Headng: 180             (same) -!@ Speed: 0        Speed: 0                      -!@ Depth: 0        Depth: 0                      -!@   Alt: 0          Alt: 0                      -!@ (X,Y): 0,-20    (X,Y): 0,-20                  -!@   Lat: 0          Lat: 43.82511993            -!@   Lon: 0          Lon: -70.33039599           -!@!@Present Buoyancy rate: 0.025!@        Starting rate: 0.025!@!@Ext Drift  X   Y   |  Mag  Ang  |  Rot.  |  Source(s)!@---------  --  --  |  ---  ---  |  ----  |  -----------!@ Starting  0   0   |  0    0    |  0     |  init_config!@  Present  0   0   |  0    0    |  0     |  n/a!@!@Velocity Information: !@--------------------- !@     DESIRED_THRUST=0 ==> SPEED=0!@     Using Thrust_Factor: false!@           Using Sailing: false!@    PID Coupled: false!@     Positive Thrust Map: 20,1, 40,2, 60,3, 80,4, 100,5!@     Negative Thrust Map: n/a!@        Max Accereration: 0!@        Max Decereration: 0.5!@!@             Thrust Mode: normal!@     Thrust Mode Reverse: false!@        DESIRED_THRUST_L: n/a!@        DESIRED_THRUST_R: n/a!@!@Depth Information: !@------------------ !@           Max Depth Rate: 0.5!@     Max Depth Rate Speed: 2!@              Water Depth: 0!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.08077         APPCAST              uSimMarineV22   proc=uSimMarineV22!@#iter=9!@#node=alpha!@#iter=9!@#messages=Enabled:  true!@TurnRate: 95!@Datum: 43.8253,-70.3304!@Sailing:!@  WindModel: spd=0, dir=0!@  PolarPlot: !@  Enabled:   false!@!@!@  Start Pose    Current Pose (NAV)     Current Pose (GT)!@------- -----   ------- ------------   ------- ---------!@Headng: 180     Headng: 180             (same) -!@ Speed: 0        Speed: 0                      -!@ Depth: 0        Depth: 0                      -!@   Alt: 0          Alt: 0                      -!@ (X,Y): 0,-20    (X,Y): 0,-20                  -!@   Lat: 0          Lat: 43.82511993            -!@   Lon: 0          Lon: -70.33039599           -!@!@Present Buoyancy rate: 0.025!@        Starting rate: 0.025!@!@Ext Drift  X   Y   |  Mag  Ang  |  Rot.  |  Source(s)!@---------  --  --  |  ---  ---  |  ----  |  -----------!@ Starting  0   0   |  0    0    |  0     |  init_config!@  Present  0   0   |  0    0    |  0     |  n/a!@!@Velocity Information: !@--------------------- !@     DESIRED_THRUST=0 ==> SPEED=0!@     Using Thrust_Factor: false!@           Using Sailing: false!@    PID Coupled: false!@     Positive Thrust Map: 20,1, 40,2, 60,3, 80,4, 100,5!@     Negative Thrust Map: n/a!@        Max Accereration: 0!@        Max Decereration: 0.5!@!@             Thrust Mode: normal!@     Thrust Mode Reverse: false!@        DESIRED_THRUST_L: n/a!@        DESIRED_THRUST_R: n/a!@!@Depth Information: !@------------------ !@           Max Depth Rate: 0.5!@     Max Depth Rate Speed: 2!@              Water Depth: 0!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.12103         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01028      
+3.12103         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01028      
+3.12104         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00020      
+3.12104         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00020      
+3.17388         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.05680      
+3.17411         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00486      
+3.18238         UPROCESSWATCH_ITER_GAP uProcessWatch   1.00420      
+3.18267         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00118      
+3.20733         UXMS_854_ITER_GAP    uXMS_854        1.00134      
+3.20762         UXMS_854_ITER_LEN    uXMS_854        0.00149      
+3.22426         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00762      
+3.22430         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00102      
+3.22434         APPCAST              pMarinePIDV22   proc=pMarinePIDV22!@#iter=41!@#node=alpha!@#iter=41!@#messages=Frequency:18.922!@Speed Factor:    20!@PID has_control: false!@  PID override: true!@  PID stale:    false!@!@PID Settings: !@----------------------------!@Thrust Cap Enabled: false!@Thrust Cap: 100.00000!@YAW_PID_KP             = 0.9!@YAW_PID_KD             = 0.3!@YAW_PID_KI             = 0.3!@YAW_PID_INTEGRAL_LIMIT = 0.07!@Max rudder: 100!@----------------------------!@SPEED_PID_KP             = 1!@SPEED_PID_KD             = 0!@SPEED_PID_KI             = 0!@SPEED_PID_INTEGRAL_LIMIT = 0.07!@Max thrust: 100!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.24066         PHELMIVP_ITER_GAP    pHelmIvP        1.00209      
+3.24069         IVPHELM_CPU          pHelmIvP        0.20148      
+3.24070         IVPHELM_STATE        pHelmIvP        PARK 
+3.24070         PHELMIVP_ITER_LEN    pHelmIvP        0.00015      
+3.24075         APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=8!@#node=alpha!@#iter=8!@#messages=  Comms Policy: open!@  Helm Iteration:  0!@  IvP Functions:   0!@  Pieces (Formed): 0!@  Pieces (Cached): 0!@  Mode(s):         !@  SolveTime:   0.00   (max=0.00)!@  CreateTime:  0.00   (max=0.00)!@  LoopTime:    0.00   (max=0.00)!@  Halted:         false   (0 warnings)!@  Active Goal:    false!@Helm Decision: []!@Behaviors Spawnable: --------- (0)!@Behaviors Active: ---------- (0)!@Behaviors Running: --------- (0)!@Behaviors Idle: ------------ (0)!@  !@Behaviors Completed: ------- (0)!@Hold-On-Apps: none!@!@!@Variable  Behavior  Time  Iter  Value!@--------  --------  ----  ----  -----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.24467         PREALM_ITER_GAP      pRealm          1.00294      
+3.24469         PREALM_ITER_LEN      pRealm          0.00008      
+3.27507         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01616      
+3.27512         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00124      
+3.27707         PSONARTASK_ITER_GAP  psonarTask      1.00301      
+3.27715         VIEW_POLYGON         psonarTask      pts={0,-20:-7.1,-27.1:-9.2,-23.8:-10,-20:-9.2,-16.2:-7.1,-12.9},label=SONAR1,edge_color=red,fill_color=blue,fill_transparency=0.3 
+3.27715         VIEW_POLYGON         psonarTask      pts={0,-20:7.1,-12.9:9.2,-16.2:10,-20:9.2,-23.8:7.1,-27.1},label=SONAR2,edge_color=red,fill_color=blue,fill_transparency=0.3 
+3.27715         PSONARTASK_ITER_LEN  psonarTask      0.00016      
+3.27718         APPCAST              psonarTask      proc=psonarTask!@#iter=2!@#node=alpha!@#iter=2!@#messages=============================================!@File:                                       !@============================================!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four!@!@#config_warnings=Unhandled config line: point1=x=40,y=-30,label=point1,color=red,vertex_size=4!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.32674         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03352      
+3.32676         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00060      
+3.33099         NAV_X                uSimMarineV22   0.00000      
+3.33099         NAV_Y                uSimMarineV22   -20.00000    
+3.33099         NAV_LAT              uSimMarineV22   43.82512     
+3.33099         NAV_LONG             uSimMarineV22   -70.33040    
+3.33099         NAV_HEADING          uSimMarineV22   180.00000    
+3.33099         NAV_SPEED            uSimMarineV22   0.00000      
+3.33099         NAV_DEPTH            uSimMarineV22   0.00000      
+3.33099         SIMULATION_MODE      uSimMarineV22   TRUE 
+3.33099         NAV_Z                uSimMarineV22   -0.00000     
+3.33099         NAV_PITCH            uSimMarineV22   0.00000      
+3.33099         NAV_YAW              uSimMarineV22   -3.14159     
+3.33099         TRUE_X               uSimMarineV22   0.00000      
+3.33099         TRUE_Y               uSimMarineV22   -20.00000    
+3.33099         NAV_HEADING_OVER_GROUND uSimMarineV22   0.00000      
+3.33099         NAV_SPEED_OVER_GROUND uSimMarineV22   0.00000      
+3.33110         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00203      
+3.33116         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00069      
+3.37719         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00900      
+3.37724         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00104      
+3.39440         PNODEREPORTER_ITER_GAP pNodeReporter   1.00100      
+3.39445         NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=2,YAW=-1.5707963,TIME=1750059353.68,LENGTH=4 
+3.39445         PNR_POST_GAP         pNodeReporter   0.50050      
+3.39446         PNODEREPORTER_ITER_LEN pNodeReporter   0.00013      
+3.39449         APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=3!@#node=alpha!@#iter=3!@#messages=tr_interval:0.5!@extrap_enabled:    false!@extrap_pos_thresh: 0.25!@extrap_hdg_thresh: 1!@extrap_max_gap:    0.25!@Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@    Vehicle group: !@!@CrossFill Policy:!@----------------------------!@ cross_fill_policy: literal!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   alt_nav_prefix: !@     alt_nav_name: _GT!@    alt_nav_group: !@ alt_nav_postings: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 3!@ Latest Report: NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,!@                LAT=43.82511993,LON=-70.33039599,TYPE=kayak,!@                COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,!@                INDEX=2,YAW=-1.5707963,TIME=1750059353.68,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.40820         UXMS_854_ITER_GAP    uXMS_854        1.00437      
+3.40827         UXMS_854_ITER_LEN    uXMS_854        0.00035      
+3.42855         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.02716      
+3.42860         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00104      
+3.43278         UPROCESSWATCH_ITER_GAP uProcessWatch   1.00158      
+3.43281         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00017      
+3.43289         APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=7!@#node=alpha!@#iter=7!@#messages=Summary: All Present!@!@Antler List: pHelmIvP,pLogger,pMarinePIDV22,pMarineViewer!@             pNodeReporter,pRealm,pkomunikatorSNR,psonarTask!@             uSimMarineV22!@!@                                          Current    Max!@ProcName          Watch Reason   Status   CPU Load   CPU Load!@---------------   ------------   ------   --------   --------!@pHelmIvP          ANT       DB   [7;32mOK[0m       0.46       0.46!@pLogger           ANT       DB   [7;32mOK[0m       1.42       1.42!@pMarinePIDV22     ANT       DB   [7;32mOK[0m       0.94       0.94!@pMarineViewer     ANT       DB   [7;32mOK[0m       7.09       7.09!@pNodeReporter     ANT       DB   [7;32mOK[0m       0.30       0.30!@pRealm            ANT       DB   [7;32mOK[0m       0.92       0.92!@pkomunikatorSNR   ANT            [7;32mOK[0m       0.41       0.41!@psonarTask        ANT       DB   [7;32mOK[0m       0.45       0.45!@uSimMarineV22     ANT       DB   [7;32mOK[0m       0.58       1.16!@!@#!@#events_total=8!@#events=[0.00]: Noted to be present: [psonarTask]!@[0.00]: Noted to be present: [pRealm]!@[0.00]: Noted to be present: [pNodeReporter]!@[0.00]: Noted to be present: [pMarineViewer]!@[0.00]: Noted to be present: [pHelmIvP]!@[0.00]: Noted to be present: [pMarinePIDV22]!@[0.00]: Noted to be present: [uSimMarineV22]!@[0.00]: Noted to be present: [pLogger]!@#run_warning_total=0!@# 
+3.44571         PREALM_ITER_GAP      pRealm          1.00518      
+3.44572         PREALM_ITER_LEN      pRealm          0.00008      
+3.44577         APPCAST              pRealm          proc=pRealm!@#iter=7!@#node=alpha!@#iter=7!@#messages=Configuration: !@--------------------------------------------!@  RelCast Interval: 0.80!@  Summary Interval: 5.00!@  Hist Variables:   !@  Wrap Length:  90!@  Trunc Length: 270!@  Max Msg Hist: 10!@!@MOOS Community State: !@--------------------------------------------!@  MOOSDB Name: MOOSDB_alpha!@   Known Apps: 12!@   Known Apps: MOOSDB_alpha,pHelmIvP,pLogger,pMarinePIDV22,!@               pMarineViewer,pNodeReporter,pRealm,!@               psonarTask,uMAC_2909,uProcessWatch,!@               uSimMarineV22,uXMS_854!@  Total SVars: 210!@  Total PVars: 54!@  Unique Vars: 211!@  UTC Time:    1750059353.73!@  Local Time:  1.41!@  Summaries:   1!@!@Recent RealmCasts or WatchCasts:!@--------------------------------------------!@  Total RealmCasts: 0!@  Total WatchCasts: 0!@--------------------------------------------!@Count  Time  Client  Content!@-----  ----  ------  -------!@Currently Active Clients:!@--------------------------------------------!@Client  Active  Content!@------  ------  -------!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.45219         APPCAST_REQ          uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+3.45222         APPCAST_REQ_ALL      uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+3.48017         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03248      
+3.48038         PID_STALE            pMarinePIDV22   Stale DesHdg:2.043 
+3.48038         PID_STALE            pMarinePIDV22   Stale DesSpd:2.043 
+3.48039         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00442      
+3.48863         PKOMUNIKATORSNR_ITER_GAP pkomunikatorSNR 1.00165      
+3.48878         SONAR_CONF           pkomunikatorSNR range=10, angle=90 
+3.48878         PKOMUNIKATORSNR_ITER_LEN pkomunikatorSNR 0.00030      
+3.48881         APPCAST              pkomunikatorSNR proc=pkomunikatorSNR!@#iter=2!@#node=alpha!@#iter=2!@#messages=============================================!@File:                                       !@============================================!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.49336         PHELMIVP_ITER_GAP    pHelmIvP        1.01080      
+3.49336         IVPHELM_CPU          pHelmIvP        0.20148      
+3.49337         IVPHELM_STATE        pHelmIvP        PARK 
+3.49337         PHELMIVP_ITER_LEN    pHelmIvP        0.00003      
+3.53074         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01126      
+3.53076         PID_STALE            pMarinePIDV22   Stale DesHdg:2.094 
+3.53076         PID_STALE            pMarinePIDV22   Stale DesSpd:2.094 
+3.53077         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00082      
+3.58224         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00500      
+3.58276         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00206      
+3.58289         APPCAST              uSimMarineV22   proc=uSimMarineV22!@#iter=11!@#node=alpha!@#iter=11!@#messages=Enabled:  true!@TurnRate: 95!@Datum: 43.8253,-70.3304!@Sailing:!@  WindModel: spd=0, dir=0!@  PolarPlot: !@  Enabled:   false!@!@!@  Start Pose    Current Pose (NAV)     Current Pose (GT)!@------- -----   ------- ------------   ------- ---------!@Headng: 180     Headng: 180             (same) -!@ Speed: 0        Speed: 0                      -!@ Depth: 0        Depth: 0                      -!@   Alt: 0          Alt: 0                      -!@ (X,Y): 0,-20    (X,Y): 0,-20                  -!@   Lat: 0          Lat: 43.82511993            -!@   Lon: 0          Lon: -70.33039599           -!@!@Present Buoyancy rate: 0.025!@        Starting rate: 0.025!@!@Ext Drift  X   Y   |  Mag  Ang  |  Rot.  |  Source(s)!@---------  --  --  |  ---  ---  |  ----  |  -----------!@ Starting  0   0   |  0    0    |  0     |  init_config!@  Present  0   0   |  0    0    |  0     |  n/a!@!@Velocity Information: !@--------------------- !@     DESIRED_THRUST=0 ==> SPEED=0!@     Using Thrust_Factor: false!@           Using Sailing: false!@    PID Coupled: false!@     Positive Thrust Map: 20,1, 40,2, 60,3, 80,4, 100,5!@     Negative Thrust Map: n/a!@        Max Accereration: 0!@        Max Decereration: 0.5!@!@             Thrust Mode: normal!@     Thrust Mode Reverse: false!@        DESIRED_THRUST_L: n/a!@        DESIRED_THRUST_R: n/a!@!@Depth Information: !@------------------ !@           Max Depth Rate: 0.5!@     Max Depth Rate Speed: 2!@              Water Depth: 0!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.58293         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.04376      
+3.58295         PID_STALE            pMarinePIDV22   Stale DesHdg:2.146 
+3.58295         PID_STALE            pMarinePIDV22   Stale DesSpd:2.146 
+3.58296         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00090      
+3.60909         UXMS_854_ITER_GAP    uXMS_854        1.00445      
+3.62240         UXMS_854_ITER_LEN    uXMS_854        0.06655      
+3.63307         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00288      
+3.63309         PID_STALE            pMarinePIDV22   Stale DesHdg:2.196 
+3.63310         PID_STALE            pMarinePIDV22   Stale DesSpd:2.196 
+3.63311         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00088      
+3.65721         PREALM_ITER_GAP      pRealm          1.05752      
+3.66037         PREALM_ITER_LEN      pRealm          0.01581      
+3.68870         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.11266      
+3.68873         PID_STALE            pMarinePIDV22   Stale DesHdg:2.252 
+3.68873         PID_STALE            pMarinePIDV22   Stale DesSpd:2.252 
+3.68874         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00094      
+3.68931         UPROCESSWATCH_ITER_GAP uProcessWatch   1.02617      
+3.68944         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00049      
+3.73899         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00570      
+3.73903         PID_STALE            pMarinePIDV22   Stale DesHdg:2.302 
+3.73903         PID_STALE            pMarinePIDV22   Stale DesSpd:2.302 
+3.73905         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00130      
+3.73908         APPCAST              pMarinePIDV22   proc=pMarinePIDV22!@#iter=51!@#node=alpha!@#iter=51!@#messages=Frequency:19.019!@Speed Factor:    20!@PID has_control: false!@  PID override: true!@  PID stale:    true!@!@PID Settings: !@----------------------------!@Thrust Cap Enabled: false!@Thrust Cap: 100.00000!@YAW_PID_KP             = 0.9!@YAW_PID_KD             = 0.3!@YAW_PID_KI             = 0.3!@YAW_PID_INTEGRAL_LIMIT = 0.07!@Max rudder: 100!@----------------------------!@SPEED_PID_KP             = 1!@SPEED_PID_KD             = 0!@SPEED_PID_KI             = 0!@SPEED_PID_INTEGRAL_LIMIT = 0.07!@Max thrust: 100!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.74507         PHELMIVP_ITER_GAP    pHelmIvP        1.00684      
+3.74509         IVPHELM_CPU          pHelmIvP        0.26788      
+3.74509         IVPHELM_STATE        pHelmIvP        PARK 
+3.74509         PHELMIVP_ITER_LEN    pHelmIvP        0.00008      
+3.74516         APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=10!@#node=alpha!@#iter=10!@#messages=  Comms Policy: open!@  Helm Iteration:  0!@  IvP Functions:   0!@  Pieces (Formed): 0!@  Pieces (Cached): 0!@  Mode(s):         !@  SolveTime:   0.00   (max=0.00)!@  CreateTime:  0.00   (max=0.00)!@  LoopTime:    0.00   (max=0.00)!@  Halted:         false   (0 warnings)!@  Active Goal:    false!@Helm Decision: []!@Behaviors Spawnable: --------- (0)!@Behaviors Active: ---------- (0)!@Behaviors Running: --------- (0)!@Behaviors Idle: ------------ (0)!@  !@Behaviors Completed: ------- (0)!@Hold-On-Apps: none!@!@!@Variable  Behavior  Time  Iter  Value!@--------  --------  ----  ----  -----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.77757         PSONARTASK_ITER_GAP  psonarTask      1.00099      
+3.77779         VIEW_POLYGON         psonarTask      pts={0,-20:-7.1,-27.1:-9.2,-23.8:-10,-20:-9.2,-16.2:-7.1,-12.9},label=SONAR1,edge_color=red,fill_color=blue,fill_transparency=0.3 
+3.77790         VIEW_POLYGON         psonarTask      pts={0,-20:7.1,-12.9:9.2,-16.2:10,-20:9.2,-23.8:7.1,-27.1},label=SONAR2,edge_color=red,fill_color=blue,fill_transparency=0.3 
+3.77793         PSONARTASK_ITER_LEN  psonarTask      0.00072      
+3.77798         APPCAST              psonarTask      proc=psonarTask!@#iter=3!@#node=alpha!@#iter=3!@#messages=============================================!@File:                                       !@============================================!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four!@!@#config_warnings=Unhandled config line: point1=x=40,y=-30,label=point1,color=red,vertex_size=4!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.78950         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01018      
+3.78953         PID_STALE            pMarinePIDV22   Stale DesHdg:2.352 
+3.78953         PID_STALE            pMarinePIDV22   Stale DesSpd:2.352 
+3.78955         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00114      
+3.80977         UXMS_854_ITER_GAP    uXMS_854        1.00340      
+3.80981         UXMS_854_ITER_LEN    uXMS_854        0.00023      
+3.81018         DB_TIME              MOOSDB_alpha    1750059354.09576 
+3.81018         DB_UPTIME            MOOSDB_alpha    4.01095      
+3.81020         DB_CLIENTS           MOOSDB_alpha    pkomunikatorSNR,psonarTask,pRealm,pNodeReporter,uProcessWatch,uMAC_2909,pHelmIvP,pMarinePIDV22,uXMS_854,uSimMarineV22,pLogger, 
+3.81143         DB_QOS               MOOSDB_alpha    pHelmIvP=0:3.04699:0.254869:0,pLogger=0:2.05708:0.272989:0,pMarinePIDV22=0:1.6551:0.164032:0,pNodeReporter=0:6.8171:0.183105:0,pRealm=0:0.797033:0.286102:0,pkomunikatorSNR=0:6.43086:0.349998:0,psonarTask=0:0.743151:0.447989:0,uMAC_2909=0:1.11389:0.124931:0,uProcessWatch=0:2.23112:0.178099:0,uSimMarineV22=0:6.91295:0.159025:0,uXMS_854=0:3.021:0.288963:0, 
+3.83711         NAV_X                uSimMarineV22   0.00000      
+3.83711         NAV_Y                uSimMarineV22   -20.00000    
+3.83711         NAV_LAT              uSimMarineV22   43.82512     
+3.83711         NAV_LONG             uSimMarineV22   -70.33040    
+3.83711         NAV_HEADING          uSimMarineV22   180.00000    
+3.83711         NAV_SPEED            uSimMarineV22   0.00000      
+3.83711         NAV_DEPTH            uSimMarineV22   0.00000      
+3.83711         SIMULATION_MODE      uSimMarineV22   TRUE 
+3.83711         NAV_Z                uSimMarineV22   -0.00000     
+3.83711         NAV_PITCH            uSimMarineV22   0.00000      
+3.83711         NAV_YAW              uSimMarineV22   -3.14159     
+3.83711         TRUE_X               uSimMarineV22   0.00000      
+3.83711         TRUE_Y               uSimMarineV22   -20.00000    
+3.83711         NAV_HEADING_OVER_GROUND uSimMarineV22   0.00000      
+3.83711         NAV_SPEED_OVER_GROUND uSimMarineV22   0.00000      
+3.83712         USIMMARINEV22_ITER_GAP uSimMarineV22   1.01949      
+3.83773         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00248      
+3.84326         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.07518      
+3.84329         PID_STALE            pMarinePIDV22   Stale DesHdg:2.406 
+3.84329         PID_STALE            pMarinePIDV22   Stale DesSpd:2.406 
+3.84330         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00100      
+3.86547         PREALM_ITER_GAP      pRealm          1.04128      
+3.86548         REALMCAST_CHANNELS   pRealm          node=alpha#channels=MOOSDB_alpha,pHelmIvP,pLogger,pMarinePIDV22,pMarineViewer,pNodeReporter,pRealm,pkomunikatorSNR,psonarTask,uProcessWatch,uSimMarineV22, 
+3.86549         PREALM_ITER_LEN      pRealm          0.00011      
+3.89515         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03790      
+3.89527         PID_STALE            pMarinePIDV22   Stale DesHdg:2.458 
+3.89529         PID_STALE            pMarinePIDV22   Stale DesSpd:2.458 
+3.89530         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00324      
+3.89574         PNODEREPORTER_ITER_GAP pNodeReporter   1.00270      
+3.89580         NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=3,YAW=-1.5707963,TIME=1750059354.18,LENGTH=4 
+3.89580         PNR_POST_GAP         pNodeReporter   0.50135      
+3.89581         PNODEREPORTER_ITER_LEN pNodeReporter   0.00013      
+3.89584         APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=4!@#node=alpha!@#iter=4!@#messages=tr_interval:0.5!@extrap_enabled:    false!@extrap_pos_thresh: 0.25!@extrap_hdg_thresh: 1!@extrap_max_gap:    0.25!@Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@    Vehicle group: !@!@CrossFill Policy:!@----------------------------!@ cross_fill_policy: literal!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   alt_nav_prefix: !@     alt_nav_name: _GT!@    alt_nav_group: !@ alt_nav_postings: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 4!@ Latest Report: NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,!@                LAT=43.82511993,LON=-70.33039599,TYPE=kayak,!@                COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,!@                INDEX=3,YAW=-1.5707963,TIME=1750059354.18,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.94268         UPROCESSWATCH_ITER_GAP uProcessWatch   1.01346      
+3.94268         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00001      
+3.94274         APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=9!@#node=alpha!@#iter=9!@#messages=Summary: All Present!@!@Antler List: pHelmIvP,pLogger,pMarinePIDV22,pMarineViewer!@             pNodeReporter,pRealm,pkomunikatorSNR,psonarTask!@             uSimMarineV22!@!@                                          Current    Max!@ProcName          Watch Reason   Status   CPU Load   CPU Load!@---------------   ------------   ------   --------   --------!@pHelmIvP          ANT       DB   [7;32mOK[0m       0.20       0.46!@pLogger           ANT       DB   [7;32mOK[0m       1.42       1.42!@pMarinePIDV22     ANT       DB   [7;32mOK[0m       0.94       0.94!@pMarineViewer     ANT       DB   [7;32mOK[0m       7.09       7.09!@pNodeReporter     ANT       DB   [7;32mOK[0m       0.30       0.30!@pRealm            ANT       DB   [7;32mOK[0m       0.92       0.92!@pkomunikatorSNR   ANT       DB   [7;32mOK[0m       0.41       0.41!@psonarTask        ANT       DB   [7;32mOK[0m       0.45       0.45!@uSimMarineV22     ANT       DB   [7;32mOK[0m       0.58       1.16!@!@#!@#events_total=8!@#events=[0.00]: Noted to be present: [psonarTask]!@[0.00]: Noted to be present: [pRealm]!@[0.00]: Noted to be present: [pNodeReporter]!@[0.00]: Noted to be present: [pMarineViewer]!@[0.00]: Noted to be present: [pHelmIvP]!@[0.00]: Noted to be present: [pMarinePIDV22]!@[0.00]: Noted to be present: [uSimMarineV22]!@[0.00]: Noted to be present: [pLogger]!@#run_warning_total=0!@# 
+3.94701         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03706      
+3.94704         PID_STALE            pMarinePIDV22   Stale DesHdg:2.51 
+3.94704         PID_STALE            pMarinePIDV22   Stale DesSpd:2.51 
+3.94705         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00118      
+3.99016         PKOMUNIKATORSNR_ITER_GAP pkomunikatorSNR 1.00305      
+3.99021         SONAR_CONF           pkomunikatorSNR range=10, angle=90 
+3.99021         PKOMUNIKATORSNR_ITER_LEN pkomunikatorSNR 0.00011      
+3.99025         APPCAST              pkomunikatorSNR proc=pkomunikatorSNR!@#iter=3!@#node=alpha!@#iter=3!@#messages=============================================!@File:                                       !@============================================!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.99544         PHELMIVP_ITER_GAP    pHelmIvP        1.00149      
+3.99545         IVPHELM_CPU          pHelmIvP        0.26788      
+3.99545         IVPHELM_STATE        pHelmIvP        PARK 
+3.99545         PHELMIVP_ITER_LEN    pHelmIvP        0.00004      
+3.99769         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01016      
+3.99772         PID_STALE            pMarinePIDV22   Stale DesHdg:2.56 
+3.99773         PID_STALE            pMarinePIDV22   Stale DesSpd:2.56 
+3.99774         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00470      
+4.01061         UXMS_854_ITER_GAP    uXMS_854        1.00418      
+4.01065         UXMS_854_ITER_LEN    uXMS_854        0.00024      
+4.04933         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03632      
+4.04936         PID_STALE            pMarinePIDV22   Stale DesHdg:2.612 
+4.04936         PID_STALE            pMarinePIDV22   Stale DesSpd:2.612 
+4.04937         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00104      
+4.05938         PREALM_ITER_GAP      pRealm          0.96958      
+4.05941         PREALM_ITER_LEN      pRealm          0.00016      
+4.05947         APPCAST              pRealm          proc=pRealm!@#iter=10!@#node=alpha!@#iter=10!@#messages=Configuration: !@--------------------------------------------!@  RelCast Interval: 0.80!@  Summary Interval: 5.00!@  Hist Variables:   !@  Wrap Length:  90!@  Trunc Length: 270!@  Max Msg Hist: 10!@!@MOOS Community State: !@--------------------------------------------!@  MOOSDB Name: MOOSDB_alpha!@   Known Apps: 13!@   Known Apps: MOOSDB_alpha,pHelmIvP,pLogger,pMarinePIDV22,!@               pMarineViewer,pNodeReporter,pRealm,!@               pkomunikatorSNR,psonarTask,uMAC_2909,!@               uProcessWatch,uSimMarineV22,uXMS_854!@  Total SVars: 212!@  Total PVars: 81!@  Unique Vars: 212!@  UTC Time:    1750059354.34!@  Local Time:  2.03!@  Summaries:   2!@!@Recent RealmCasts or WatchCasts:!@--------------------------------------------!@  Total RealmCasts: 0!@  Total WatchCasts: 0!@--------------------------------------------!@Count  Time  Client  Content!@-----  ----  ------  -------!@Currently Active Clients:!@--------------------------------------------!@Client  Active  Content!@------  ------  -------!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.05972         APPCAST_REQ          uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+4.05972         APPCAST_REQ_ALL      uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+4.08838         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00506      
+4.08855         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00070      
+4.08865         APPCAST              uSimMarineV22   proc=uSimMarineV22!@#iter=13!@#node=alpha!@#iter=13!@#messages=Enabled:  true!@TurnRate: 95!@Datum: 43.8253,-70.3304!@Sailing:!@  WindModel: spd=0, dir=0!@  PolarPlot: !@  Enabled:   false!@!@!@  Start Pose    Current Pose (NAV)     Current Pose (GT)!@------- -----   ------- ------------   ------- ---------!@Headng: 180     Headng: 180             (same) -!@ Speed: 0        Speed: 0                      -!@ Depth: 0        Depth: 0                      -!@   Alt: 0          Alt: 0                      -!@ (X,Y): 0,-20    (X,Y): 0,-20                  -!@   Lat: 0          Lat: 43.82511993            -!@   Lon: 0          Lon: -70.33039599           -!@!@Present Buoyancy rate: 0.025!@        Starting rate: 0.025!@!@Ext Drift  X   Y   |  Mag  Ang  |  Rot.  |  Source(s)!@---------  --  --  |  ---  ---  |  ----  |  -----------!@ Starting  0   0   |  0    0    |  0     |  init_config!@  Present  0   0   |  0    0    |  0     |  n/a!@!@Velocity Information: !@--------------------- !@     DESIRED_THRUST=0 ==> SPEED=0!@     Using Thrust_Factor: false!@           Using Sailing: false!@    PID Coupled: false!@     Positive Thrust Map: 20,1, 40,2, 60,3, 80,4, 100,5!@     Negative Thrust Map: n/a!@        Max Accereration: 0!@        Max Decereration: 0.5!@!@             Thrust Mode: normal!@     Thrust Mode Reverse: false!@        DESIRED_THRUST_L: n/a!@        DESIRED_THRUST_R: n/a!@!@Depth Information: !@------------------ !@           Max Depth Rate: 0.5!@     Max Depth Rate Speed: 2!@              Water Depth: 0!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.09968         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00720      
+4.09970         PID_STALE            pMarinePIDV22   Stale DesHdg:2.663 
+4.09970         PID_STALE            pMarinePIDV22   Stale DesSpd:2.663 
+4.09971         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00068      
+4.15293         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.06484      
+4.15296         PID_STALE            pMarinePIDV22   Stale DesHdg:2.716 
+4.15296         PID_STALE            pMarinePIDV22   Stale DesSpd:2.716 
+4.15297         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00096      
+4.19557         UPROCESSWATCH_ITER_GAP uProcessWatch   1.01155      
+4.19564         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00029      
+4.20491         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03950      
+4.20551         PID_STALE            pMarinePIDV22   Stale DesHdg:2.768 
+4.20552         PID_STALE            pMarinePIDV22   Stale DesSpd:2.768 
+4.20554         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.01276      
+4.21780         UXMS_854_ITER_GAP    uXMS_854        1.03599      
+4.21785         UXMS_854_ITER_LEN    uXMS_854        0.00024      
+4.24583         PHELMIVP_ITER_GAP    pHelmIvP        1.00155      
+4.24584         IVPHELM_CPU          pHelmIvP        0.23243      
+4.24584         IVPHELM_STATE        pHelmIvP        PARK 
+4.24585         PHELMIVP_ITER_LEN    pHelmIvP        0.00007      
+4.24591         APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=12!@#node=alpha!@#iter=12!@#messages=  Comms Policy: open!@  Helm Iteration:  0!@  IvP Functions:   0!@  Pieces (Formed): 0!@  Pieces (Cached): 0!@  Mode(s):         !@  SolveTime:   0.00   (max=0.00)!@  CreateTime:  0.00   (max=0.00)!@  LoopTime:    0.00   (max=0.00)!@  Halted:         false   (0 warnings)!@  Active Goal:    false!@Helm Decision: []!@Behaviors Spawnable: --------- (0)!@Behaviors Active: ---------- (0)!@Behaviors Running: --------- (0)!@Behaviors Idle: ------------ (0)!@  !@Behaviors Completed: ------- (0)!@Hold-On-Apps: none!@!@!@Variable  Behavior  Time  Iter  Value!@--------  --------  ----  ----  -----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.25570         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01588      
+4.25573         PID_STALE            pMarinePIDV22   Stale DesHdg:2.819 
+4.25573         PID_STALE            pMarinePIDV22   Stale DesSpd:2.819 
+4.25574         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00104      
+4.25577         APPCAST              pMarinePIDV22   proc=pMarinePIDV22!@#iter=61!@#node=alpha!@#iter=61!@#messages=Frequency:19.073!@Speed Factor:    20!@PID has_control: false!@  PID override: true!@  PID stale:    true!@!@PID Settings: !@----------------------------!@Thrust Cap Enabled: false!@Thrust Cap: 100.00000!@YAW_PID_KP             = 0.9!@YAW_PID_KD             = 0.3!@YAW_PID_KI             = 0.3!@YAW_PID_INTEGRAL_LIMIT = 0.07!@Max rudder: 100!@----------------------------!@SPEED_PID_KP             = 1!@SPEED_PID_KD             = 0!@SPEED_PID_KI             = 0!@SPEED_PID_INTEGRAL_LIMIT = 0.07!@Max thrust: 100!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.26127         PREALM_ITER_GAP      pRealm          1.00946      
+4.26128         PREALM_ITER_LEN      pRealm          0.00002      
+4.27947         PSONARTASK_ITER_GAP  psonarTask      1.00380      
+4.27971         VIEW_POLYGON         psonarTask      pts={0,-20:-7.1,-27.1:-9.2,-23.8:-10,-20:-9.2,-16.2:-7.1,-12.9},label=SONAR1,edge_color=red,fill_color=blue,fill_transparency=0.3 
+4.27972         VIEW_POLYGON         psonarTask      pts={0,-20:7.1,-12.9:9.2,-16.2:10,-20:9.2,-23.8:7.1,-27.1},label=SONAR2,edge_color=red,fill_color=blue,fill_transparency=0.3 
+4.27972         PSONARTASK_ITER_LEN  psonarTask      0.00051      
+4.27975         APPCAST              psonarTask      proc=psonarTask!@#iter=4!@#node=alpha!@#iter=4!@#messages=============================================!@File:                                       !@============================================!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four!@!@#config_warnings=Unhandled config line: point1=x=40,y=-30,label=point1,color=red,vertex_size=4!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.31056         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.09718      
+4.31072         PID_STALE            pMarinePIDV22   Stale DesHdg:2.873 
+4.31072         PID_STALE            pMarinePIDV22   Stale DesSpd:2.873 
+4.31073         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00358      
+4.33971         NAV_X                uSimMarineV22   0.00000      
+4.33971         NAV_Y                uSimMarineV22   -20.00000    
+4.33971         NAV_LAT              uSimMarineV22   43.82512     
+4.33971         NAV_LONG             uSimMarineV22   -70.33040    
+4.33971         NAV_HEADING          uSimMarineV22   180.00000    
+4.33971         NAV_SPEED            uSimMarineV22   0.00000      
+4.33971         NAV_DEPTH            uSimMarineV22   0.00000      
+4.33971         SIMULATION_MODE      uSimMarineV22   TRUE 
+4.33971         NAV_Z                uSimMarineV22   -0.00000     
+4.33971         NAV_PITCH            uSimMarineV22   0.00000      
+4.33971         NAV_YAW              uSimMarineV22   -3.14159     
+4.33971         TRUE_X               uSimMarineV22   0.00000      
+4.33971         TRUE_Y               uSimMarineV22   -20.00000    
+4.33971         NAV_HEADING_OVER_GROUND uSimMarineV22   0.00000      
+4.33971         NAV_SPEED_OVER_GROUND uSimMarineV22   0.00000      
+4.33972         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00535      
+4.33990         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00076      
+4.36142         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01728      
+4.36157         PID_STALE            pMarinePIDV22   Stale DesHdg:2.924 
+4.36157         PID_STALE            pMarinePIDV22   Stale DesSpd:2.924 
+4.36158         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00334      
+4.39676         PNODEREPORTER_ITER_GAP pNodeReporter   1.00204      
+4.39679         NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=4,YAW=-1.5707963,TIME=1750059354.68,LENGTH=4 
+4.39679         PNR_POST_GAP         pNodeReporter   0.50102      
+4.39679         PNODEREPORTER_ITER_LEN pNodeReporter   0.00006      
+4.39683         APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=5!@#node=alpha!@#iter=5!@#messages=tr_interval:0.5!@extrap_enabled:    false!@extrap_pos_thresh: 0.25!@extrap_hdg_thresh: 1!@extrap_max_gap:    0.25!@Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@    Vehicle group: !@!@CrossFill Policy:!@----------------------------!@ cross_fill_policy: literal!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   alt_nav_prefix: !@     alt_nav_name: _GT!@    alt_nav_group: !@ alt_nav_postings: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 5!@ Latest Report: NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,!@                LAT=43.82511993,LON=-70.33039599,TYPE=kayak,!@                COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,!@                INDEX=4,YAW=-1.5707963,TIME=1750059354.68,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.41232         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01800      
+4.41235         PID_STALE            pMarinePIDV22   Stale DesHdg:2.975 
+4.41235         PID_STALE            pMarinePIDV22   Stale DesSpd:2.975 
+4.41236         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00098      
+4.41275         UXMS_854_ITER_GAP    uXMS_854        0.97475      
+4.41480         UXMS_854_ITER_LEN    uXMS_854        0.01022      
+4.45175         UPROCESSWATCH_ITER_GAP uProcessWatch   1.02472      
+4.45175         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00003      
+4.45182         APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=11!@#node=alpha!@#iter=11!@#messages=Summary: All Present!@!@Antler List: pHelmIvP,pLogger,pMarinePIDV22,pMarineViewer!@             pNodeReporter,pRealm,pkomunikatorSNR,psonarTask!@             uSimMarineV22!@!@                                          Current    Max!@ProcName          Watch Reason   Status   CPU Load   CPU Load!@---------------   ------------   ------   --------   --------!@pHelmIvP          ANT       DB   [7;32mOK[0m       0.20       0.46!@pLogger           ANT       DB   [7;32mOK[0m       1.42       1.42!@pMarinePIDV22     ANT       DB   [7;32mOK[0m       0.94       0.94!@pMarineViewer     ANT       DB   [7;32mOK[0m       7.09       7.09!@pNodeReporter     ANT       DB   [7;32mOK[0m       0.14       0.30!@pRealm            ANT       DB   [7;32mOK[0m       1.14       1.14!@pkomunikatorSNR   ANT       DB   [7;32mOK[0m       0.41       0.41!@psonarTask        ANT       DB   [7;32mOK[0m       0.45       0.45!@uSimMarineV22     ANT       DB   [7;32mOK[0m       0.58       1.16!@!@#!@#events_total=8!@#events=[0.00]: Noted to be present: [psonarTask]!@[0.00]: Noted to be present: [pRealm]!@[0.00]: Noted to be present: [pNodeReporter]!@[0.00]: Noted to be present: [pMarineViewer]!@[0.00]: Noted to be present: [pHelmIvP]!@[0.00]: Noted to be present: [pMarinePIDV22]!@[0.00]: Noted to be present: [uSimMarineV22]!@[0.00]: Noted to be present: [pLogger]!@#run_warning_total=0!@# 
+4.46289         PREALM_ITER_GAP      pRealm          1.00807      
+4.46293         PREALM_ITER_LEN      pRealm          0.00023      
+4.46475         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.04860      
+4.46477         PID_STALE            pMarinePIDV22   Stale DesHdg:3.028 
+4.46477         PID_STALE            pMarinePIDV22   Stale DesSpd:3.028 
+4.46478         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00078      
+4.49051         PKOMUNIKATORSNR_ITER_GAP pkomunikatorSNR 1.00070      
+4.49061         SONAR_CONF           pkomunikatorSNR range=10, angle=90 
+4.49062         PKOMUNIKATORSNR_ITER_LEN pkomunikatorSNR 0.00022      
+4.49065         APPCAST              pkomunikatorSNR proc=pkomunikatorSNR!@#iter=4!@#node=alpha!@#iter=4!@#messages=============================================!@File:                                       !@============================================!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.49608         PHELMIVP_ITER_GAP    pHelmIvP        1.00101      
+4.49617         IVPHELM_CPU          pHelmIvP        0.23243      
+4.49619         IVPHELM_STATE        pHelmIvP        PARK 
+4.49621         PHELMIVP_ITER_LEN    pHelmIvP        0.00049      
+4.51637         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03240      
+4.51665         PID_STALE            pMarinePIDV22   Stale DesHdg:3.079 
+4.51665         PID_STALE            pMarinePIDV22   Stale DesSpd:3.079 
+4.51666         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00598      
+4.56798         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.03220      
+4.56801         PID_STALE            pMarinePIDV22   Stale DesHdg:3.131 
+4.56801         PID_STALE            pMarinePIDV22   Stale DesSpd:3.131 
+4.56802         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00100      
+4.59184         USIMMARINEV22_ITER_GAP uSimMarineV22   1.00848      
+4.59187         USIMMARINEV22_ITER_LEN uSimMarineV22   0.00014      
+4.59197         APPCAST              uSimMarineV22   proc=uSimMarineV22!@#iter=15!@#node=alpha!@#iter=15!@#messages=Enabled:  true!@TurnRate: 95!@Datum: 43.8253,-70.3304!@Sailing:!@  WindModel: spd=0, dir=0!@  PolarPlot: !@  Enabled:   false!@!@!@  Start Pose    Current Pose (NAV)     Current Pose (GT)!@------- -----   ------- ------------   ------- ---------!@Headng: 180     Headng: 180             (same) -!@ Speed: 0        Speed: 0                      -!@ Depth: 0        Depth: 0                      -!@   Alt: 0          Alt: 0                      -!@ (X,Y): 0,-20    (X,Y): 0,-20                  -!@   Lat: 0          Lat: 43.82511993            -!@   Lon: 0          Lon: -70.33039599           -!@!@Present Buoyancy rate: 0.025!@        Starting rate: 0.025!@!@Ext Drift  X   Y   |  Mag  Ang  |  Rot.  |  Source(s)!@---------  --  --  |  ---  ---  |  ----  |  -----------!@ Starting  0   0   |  0    0    |  0     |  init_config!@  Present  0   0   |  0    0    |  0     |  n/a!@!@Velocity Information: !@--------------------- !@     DESIRED_THRUST=0 ==> SPEED=0!@     Using Thrust_Factor: false!@           Using Sailing: false!@    PID Coupled: false!@     Positive Thrust Map: 20,1, 40,2, 60,3, 80,4, 100,5!@     Negative Thrust Map: n/a!@        Max Accereration: 0!@        Max Decereration: 0.5!@!@             Thrust Mode: normal!@     Thrust Mode Reverse: false!@        DESIRED_THRUST_L: n/a!@        DESIRED_THRUST_R: n/a!@!@Depth Information: !@------------------ !@           Max Depth Rate: 0.5!@     Max Depth Rate Speed: 2!@              Water Depth: 0!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.61587         UXMS_854_ITER_GAP    uXMS_854        1.01555      
+4.61592         UXMS_854_ITER_LEN    uXMS_854        0.00028      
+4.61835         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.00734      
+4.61840         PID_STALE            pMarinePIDV22   Stale DesHdg:3.181 
+4.61840         PID_STALE            pMarinePIDV22   Stale DesSpd:3.181 
+4.61841         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00136      
+4.66409         APPCAST_REQ          uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+4.66410         PREALM_ITER_GAP      pRealm          1.00608      
+4.66418         PREALM_ITER_LEN      pRealm          0.00038      
+4.66438         APPCAST              pRealm          proc=pRealm!@#iter=13!@#node=alpha!@#iter=13!@#messages=Configuration: !@--------------------------------------------!@  RelCast Interval: 0.80!@  Summary Interval: 5.00!@  Hist Variables:   !@  Wrap Length:  90!@  Trunc Length: 270!@  Max Msg Hist: 10!@!@MOOS Community State: !@--------------------------------------------!@  MOOSDB Name: MOOSDB_alpha!@   Known Apps: 13!@   Known Apps: MOOSDB_alpha,pHelmIvP,pLogger,pMarinePIDV22,!@               pMarineViewer,pNodeReporter,pRealm,!@               pkomunikatorSNR,psonarTask,uMAC_2909,!@               uProcessWatch,uSimMarineV22,uXMS_854!@  Total SVars: 212!@  Total PVars: 81!@  Unique Vars: 212!@  UTC Time:    1750059354.95!@  Local Time:  2.63!@  Summaries:   2!@!@Recent RealmCasts or WatchCasts:!@--------------------------------------------!@  Total RealmCasts: 0!@  Total WatchCasts: 0!@--------------------------------------------!@Count  Time  Client  Content!@-----  ----  ------  -------!@Currently Active Clients:!@--------------------------------------------!@Client  Active  Content!@------  ------  -------!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.66438         APPCAST_REQ_ALL      uMAC_2909       node=all,app=all,duration=3.0,key=uMAC_2909:app,thresh=run_warning 
+4.67181         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.06930      
+4.67215         PID_STALE            pMarinePIDV22   Stale DesHdg:3.235 
+4.67216         PID_STALE            pMarinePIDV22   Stale DesSpd:3.235 
+4.67217         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00734      
+4.70197         UPROCESSWATCH_ITER_GAP uProcessWatch   1.00091      
+4.70198         UPROCESSWATCH_ITER_LEN uProcessWatch   0.00003      
+4.72246         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01298      
+4.72254         PID_STALE            pMarinePIDV22   Stale DesHdg:3.285 
+4.72254         PID_STALE            pMarinePIDV22   Stale DesSpd:3.285 
+4.72255         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00196      
+4.74713         PHELMIVP_ITER_GAP    pHelmIvP        1.00420      
+4.74728         IVPHELM_CPU          pHelmIvP        0.19379      
+4.74731         IVPHELM_STATE        pHelmIvP        PARK 
+4.74732         PHELMIVP_ITER_LEN    pHelmIvP        0.00076      
+4.74738         APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=14!@#node=alpha!@#iter=14!@#messages=  Comms Policy: open!@  Helm Iteration:  0!@  IvP Functions:   0!@  Pieces (Formed): 0!@  Pieces (Cached): 0!@  Mode(s):         !@  SolveTime:   0.00   (max=0.00)!@  CreateTime:  0.00   (max=0.00)!@  LoopTime:    0.00   (max=0.00)!@  Halted:         false   (0 warnings)!@  Active Goal:    false!@Helm Decision: []!@Behaviors Spawnable: --------- (0)!@Behaviors Active: ---------- (0)!@Behaviors Running: --------- (0)!@Behaviors Idle: ------------ (0)!@  !@Behaviors Completed: ------- (0)!@Hold-On-Apps: none!@!@!@Variable  Behavior  Time  Iter  Value!@--------  --------  ----  ----  -----!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.77300         PMARINEPIDV22_ITER_GAP pMarinePIDV22   1.01072      
+4.77303         PID_STALE            pMarinePIDV22   Stale DesHdg:3.336 
+4.77303         PID_STALE            pMarinePIDV22   Stale DesSpd:3.336 
+4.77305         PMARINEPIDV22_ITER_LEN pMarinePIDV22   0.00108      
+4.77308         APPCAST              pMarinePIDV22   proc=pMarinePIDV22!@#iter=71!@#node=alpha!@#iter=71!@#messages=Frequency:19.109!@Speed Factor:    20!@PID has_control: false!@  PID override: true!@  PID stale:    true!@!@PID Settings: !@----------------------------!@Thrust Cap Enabled: false!@Thrust Cap: 100.00000!@YAW_PID_KP             = 0.9!@YAW_PID_KD             = 0.3!@YAW_PID_KI             = 0.3!@YAW_PID_INTEGRAL_LIMIT = 0.07!@Max rudder: 100!@----------------------------!@SPEED_PID_KP             = 1!@SPEED_PID_KD             = 0!@SPEED_PID_KI             = 0!@SPEED_PID_INTEGRAL_LIMIT = 0.07!@Max thrust: 100!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+4.78067         PSONARTASK_ITER_GAP  psonarTask      1.00241      
+4.78070         VIEW_POLYGON         psonarTask      pts={0,-20:-7.1,-27.1:-9.2,-23.8:-10,-20:-9.2,-16.2:-7.1,-12.9},label=SONAR1,edge_color=red,fill_color=blue,fill_transparency=0.3 
+4.78071         VIEW_POLYGON         psonarTask      pts={0,-20:7.1,-12.9:9.2,-16.2:10,-20:9.2,-23.8:7.1,-27.1},label=SONAR2,edge_color=red,fill_color=blue,fill_transparency=0.3 
+4.78071         PSONARTASK_ITER_LEN  psonarTask      0.00007      
+4.78073         APPCAST              psonarTask      proc=psonarTask!@#iter=5!@#node=alpha!@#iter=5!@#messages=============================================!@File:                                       !@============================================!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four!@!@#config_warnings=Unhandled config line: point1=x=40,y=-30,label=point1,color=red,vertex_size=4!@#events_total=0!@#!@#run_warning_total=0!@# 

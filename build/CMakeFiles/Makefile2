@@ -90,6 +90,7 @@ src/all: src/plab3/all
 src/all: src/plab4/all
 src/all: src/plab5/all
 src/all: src/plab6/all
+src/all: src/psonarTask/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -105,6 +106,7 @@ src/preinstall: src/plab3/preinstall
 src/preinstall: src/plab4/preinstall
 src/preinstall: src/plab5/preinstall
 src/preinstall: src/plab6/preinstall
+src/preinstall: src/psonarTask/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
@@ -120,6 +122,7 @@ src/clean: src/plab3/clean
 src/clean: src/plab4/clean
 src/clean: src/plab5/clean
 src/clean: src/plab6/clean
+src/clean: src/psonarTask/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -303,6 +306,21 @@ src/plab6/preinstall:
 # Recursive "clean" directory target.
 src/plab6/clean: src/plab6/CMakeFiles/plab6.dir/clean
 .PHONY : src/plab6/clean
+
+#=============================================================================
+# Directory level rules for directory src/psonarTask
+
+# Recursive "all" directory target.
+src/psonarTask/all: src/psonarTask/CMakeFiles/psonarTask.dir/all
+.PHONY : src/psonarTask/all
+
+# Recursive "preinstall" directory target.
+src/psonarTask/preinstall:
+.PHONY : src/psonarTask/preinstall
+
+# Recursive "clean" directory target.
+src/psonarTask/clean: src/psonarTask/CMakeFiles/psonarTask.dir/clean
+.PHONY : src/psonarTask/clean
 
 #=============================================================================
 # Target rules for target src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir
@@ -641,6 +659,32 @@ plab6: src/plab6/CMakeFiles/plab6.dir/rule
 src/plab6/CMakeFiles/plab6.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/plab6/CMakeFiles/plab6.dir/build.make src/plab6/CMakeFiles/plab6.dir/clean
 .PHONY : src/plab6/CMakeFiles/plab6.dir/clean
+
+#=============================================================================
+# Target rules for target src/psonarTask/CMakeFiles/psonarTask.dir
+
+# All Build rule for target.
+src/psonarTask/CMakeFiles/psonarTask.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/psonarTask/CMakeFiles/psonarTask.dir/build.make src/psonarTask/CMakeFiles/psonarTask.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/psonarTask/CMakeFiles/psonarTask.dir/build.make src/psonarTask/CMakeFiles/psonarTask.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles --progress-num=48,49,50,51 "Built target psonarTask"
+.PHONY : src/psonarTask/CMakeFiles/psonarTask.dir/all
+
+# Build rule for subdir invocation for target.
+src/psonarTask/CMakeFiles/psonarTask.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/psonarTask/CMakeFiles/psonarTask.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/moos-ivp-extend/build/CMakeFiles 0
+.PHONY : src/psonarTask/CMakeFiles/psonarTask.dir/rule
+
+# Convenience name for target.
+psonarTask: src/psonarTask/CMakeFiles/psonarTask.dir/rule
+.PHONY : psonarTask
+
+# clean rule for target.
+src/psonarTask/CMakeFiles/psonarTask.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/psonarTask/CMakeFiles/psonarTask.dir/build.make src/psonarTask/CMakeFiles/psonarTask.dir/clean
+.PHONY : src/psonarTask/CMakeFiles/psonarTask.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

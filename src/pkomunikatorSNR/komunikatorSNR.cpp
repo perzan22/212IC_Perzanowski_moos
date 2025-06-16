@@ -74,7 +74,7 @@ bool komunikatorSNR::OnConnectToServer()
 bool komunikatorSNR::Iterate()
 {
   AppCastingMOOSApp::Iterate();
-  Notify("DEF_SNR","range=10, angle=90");
+  Notify("SONAR_CONF","range=10, angle=90");
   AppCastingMOOSApp::PostReport();
   return(true);
 }

@@ -24,6 +24,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vboxuser/Desktop/moos-ivp-extend/src/plab4/CMakeLists.txt"
   "/home/vboxuser/Desktop/moos-ivp-extend/src/plab5/CMakeLists.txt"
   "/home/vboxuser/Desktop/moos-ivp-extend/src/plab6/CMakeLists.txt"
+  "/home/vboxuser/Desktop/moos-ivp-extend/src/psonarTask/CMakeLists.txt"
   "/home/vboxuser/Desktop/moos-ivp/build/MOOS/MOOSCore/MOOSConfig.cmake"
   "/home/vboxuser/Desktop/moos-ivp/build/MOOS/MOOSCore/MOOSConfigVersion.cmake"
   "/home/vboxuser/Desktop/moos-ivp/build/MOOS/MOOSCore/MOOSTargets.cmake"
@@ -76,6 +77,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/plab4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/plab5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/plab6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/psonarTask/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -93,4 +95,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/plab4/CMakeFiles/plab4.dir/DependInfo.cmake"
   "src/plab5/CMakeFiles/plab5.dir/DependInfo.cmake"
   "src/plab6/CMakeFiles/plab6.dir/DependInfo.cmake"
+  "src/psonarTask/CMakeFiles/psonarTask.dir/DependInfo.cmake"
   )

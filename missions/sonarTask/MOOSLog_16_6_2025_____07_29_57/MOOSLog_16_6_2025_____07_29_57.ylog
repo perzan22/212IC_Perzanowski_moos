@@ -1,0 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_16_6_2025_____07_29_57/MOOSLog_16_6_2025_____07_29_57.ylog
+%% FILE OPENED ON  Thu Jan  1 00:00:00 1970
+%% LOGSTART           1750058996.605222
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+1.46811    MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.46811    MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.46811    MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+1.46811    MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+44.96252   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+44.96252   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+44.96252   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+180.7974   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: NothingToDo 
+181.0489   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+181.0489   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 

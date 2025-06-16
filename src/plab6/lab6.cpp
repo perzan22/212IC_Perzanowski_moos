@@ -53,7 +53,7 @@ bool lab6::OnNewMail(MOOSMSG_LIST &NewMail)
       if(key == "FOO") 
       cout << "great!";
       // get sonar info
-      else if(key == "DEF_SNR"){
+      else if(key == "SONAR_INFO"){
         range = stod(tokStringParse(msg.GetString(),"range",',','='));
         angle = stod(tokStringParse(msg.GetString(),"angle",',','='));
       }
@@ -221,7 +221,7 @@ bool lab6::OnStartUp()
 void lab6::registerVariables()
 {
   AppCastingMOOSApp::RegisterVariables();
-  Register("DEF_SNR", 0);
+  Register("SONAR_CONF", 0);
   Register("NAV_X", 0);
   Register("NAV_Y", 0);
   Register("NAV_HEADING", 0);

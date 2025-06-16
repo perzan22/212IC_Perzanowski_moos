@@ -1,0 +1,8 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_16_6_2025_____08_19_32/MOOSLog_16_6_2025_____08_19_32.alog
+%% FILE OPENED ON  Thu Jan  1 00:00:00 1970
+%% LOGSTART           1750061971.929483
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-43.87751       BHV_SETTINGS         pHelmIvP:1:waypt_return type=BHV_Waypoint,name=waypt_return,points=pts={0,-20},speed=2,speed_alt=-1,currix=0,greedy_tour=false,use_alt_speed=false,wpt_status=WPT_STAT,wpt_dist_to_prev=,wpt_dist_to_next=,wpt_index=WPT_INDEX,cycle_index_var=CYCLE_INDEX,post_suffix=,post_suffix=,ipf_type=zaic,lead=-1,lead_damper=-1,lead_to_start=false,order=normal,repeats=0,efficiency_measure=off,capture_radius=2,slip_radius=8,crs_spd_zaic_ratio=50 
+-43.87750       IVPHELM_LIFE_EVENT   pHelmIvP        time=3.77, iter=1, bname=const_speed, btype=BHV_ConstantSpeed, event=spawn, seed=helm_startup, posting_index=2 
+-43.87748       MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: clear 

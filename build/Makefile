@@ -285,6 +285,19 @@ plab6/fast:
 	$(MAKE) $(MAKESILENT) -f src/plab6/CMakeFiles/plab6.dir/build.make src/plab6/CMakeFiles/plab6.dir/build
 .PHONY : plab6/fast
 
+#=============================================================================
+# Target rules for targets named psonarTask
+
+# Build rule for target.
+psonarTask: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 psonarTask
+.PHONY : psonarTask
+
+# fast build rule for target.
+psonarTask/fast:
+	$(MAKE) $(MAKESILENT) -f src/psonarTask/CMakeFiles/psonarTask.dir/build.make src/psonarTask/CMakeFiles/psonarTask.dir/build
+.PHONY : psonarTask/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -306,6 +319,7 @@ help:
 	@echo "... plab4"
 	@echo "... plab5"
 	@echo "... plab6"
+	@echo "... psonarTask"
 .PHONY : help
 
 

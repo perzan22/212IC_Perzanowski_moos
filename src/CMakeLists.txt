@@ -27,6 +27,7 @@ ADD_SUBDIRECTORY(plab3)
 ADD_SUBDIRECTORY(plab4)
 ADD_SUBDIRECTORY(plab5)
 ADD_SUBDIRECTORY(plab6)
+ADD_SUBDIRECTORY(psonarTask)
 
 ##############################################################################
 #                           END of CMakeLists.txt

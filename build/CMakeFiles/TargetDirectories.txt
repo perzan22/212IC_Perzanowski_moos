@@ -39,3 +39,6 @@
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/plab6/CMakeFiles/plab6.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/plab6/CMakeFiles/edit_cache.dir
 /home/vboxuser/Desktop/moos-ivp-extend/build/src/plab6/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/psonarTask/CMakeFiles/psonarTask.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/psonarTask/CMakeFiles/edit_cache.dir
+/home/vboxuser/Desktop/moos-ivp-extend/build/src/psonarTask/CMakeFiles/rebuild_cache.dir
